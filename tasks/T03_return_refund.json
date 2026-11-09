@@ -1,0 +1,28 @@
+{
+  "id": "T03",
+  "title": "Return eligibility and refund amount",
+  "type": "returns",
+  "context_categories": ["foundation", "mascara", "lipstick"],
+  "prompt": "Hi, I'd like to return everything from order VA-10482. It was delivered on 2026-10-10 and today is 2026-11-09. I paid $6.95 for shipping. Here is the order:\n\n| Line | Variant | Product | Qty | Unit price paid | Opened? |\n|---|---|---|---|---|---|\n| 1 | FDN-004-201O | Aurevia Calm Foundation | 1 | $45.60 | yes |\n| 2 | MSC-008-BLA | Aurevia Daylight Mascara | 1 | $19.20 | yes |\n| 3 | LIP-003-02 | Moss & Mineral Luminous Lip Color | 1 | $33.00 | no |\n| 4 | LIP-004-03 | Orrin Calm Lip Color | 2 | $16.00 | no |\n| 5 | MSC-003-BLA | Tidepool Skin True Mascara | 1 | $20.00 | no |\n\nWhich lines can I return, and how much will I get back?",
+  "output_format": "Return a JSON object of the form {\"returnable_lines\": [line numbers], \"refund_total\": number}. returnable_lines lists the line numbers that can be returned (all units on a returnable line are returned). refund_total is the total refund in dollars with two decimals.",
+  "why_hard": "The request is made exactly on day 30 (October has 31 days), which is still on time. Each line needs a different rule: the final-sale lipstick is only flagged in the catalog, not in the order; the mascara rule applies only to opened mascara; and the refund must use the price paid, not the list price, with shipping excluded.",
+  "traps": [
+    "Counting 2026-10-10 to 2026-11-09 as 31 days and rejecting the whole return",
+    "Missing that LIP-003-02 is final sale (only visible in the catalog)",
+    "Rejecting the unopened mascara (line 5) by over-applying the mascara rule",
+    "Refunding list prices ($57.00 foundation) instead of the prices paid",
+    "Refunding the $6.95 shipping fee"
+  ],
+  "spec": {
+    "delivered": "2026-10-10",
+    "requested": "2026-11-09",
+    "shipping_paid": 6.95,
+    "lines": [
+      {"line": 1, "variant_id": "FDN-004-201O", "quantity": 1, "unit_price_paid": 45.60, "opened": true},
+      {"line": 2, "variant_id": "MSC-008-BLA", "quantity": 1, "unit_price_paid": 19.20, "opened": true},
+      {"line": 3, "variant_id": "LIP-003-02", "quantity": 1, "unit_price_paid": 33.00, "opened": false},
+      {"line": 4, "variant_id": "LIP-004-03", "quantity": 2, "unit_price_paid": 16.00, "opened": false},
+      {"line": 5, "variant_id": "MSC-003-BLA", "quantity": 1, "unit_price_paid": 20.00, "opened": false}
+    ]
+  }
+}

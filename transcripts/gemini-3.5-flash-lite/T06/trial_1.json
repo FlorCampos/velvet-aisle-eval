@@ -1,0 +1,86 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "provider": "openai_compatible",
+  "requested_model": "gemini-3.5-flash-lite",
+  "settings": {
+    "temperature": null,
+    "max_tokens": 32000
+  },
+  "task": "T06",
+  "trial": 1,
+  "started_at": "2026-11-09T01:10:50.508710+00:00",
+  "latency_s": 3.58,
+  "system_prompt_file": "transcripts/_prompts/T06.system.md",
+  "system_prompt_sha256": "e28c277229cf58dfabb9ea075bd4b32e9c9789f6025ccc33f14c4eee9b3174cf",
+  "user_prompt": "I'm buying gifts and I'd like:\n- 3 x LIP-007-03 (Orrin Clear Lip Color, Mauve)\n- 3 x FDN-009-201W (Halcyon Beauty Bare Foundation, light warm)\n- 2 x LIP-004-01 (Orrin Calm Lip Color, Poppy)\n- 1 x MSC-004-BLA (Tidepool Skin Cloud Mascara)\n- 3 x SUN-007-50ml (Aurevia True Sunscreen)\n\nPlease add as many of each as the store allows in a single order. How many of each can I get, and what is my order total?\n\nReturn a JSON object of the form {\"lines\": [{\"variant_id\": \"...\", \"quantity\": integer}], \"order_total\": number}. Include every variant I asked for, with quantity 0 if none can be ordered. order_total includes promotions and shipping, in dollars with two decimals.\n\nYou may think step by step first. End your reply with the JSON object inside a ```json code block.",
+  "error": null,
+  "response_model_id": "gemini-3.5-flash-lite",
+  "stop_reason": "stop",
+  "input_tokens": 21893,
+  "output_tokens": 1124,
+  "cost_usd": 0.0093779,
+  "response_text": "To determine how many units of each item you can order and calculate your order total, let's review the store policies and check each requested variant step by step:\n\n1. **Stock Availability**:\n   - `LIP-007-03`: Stock is 31. You requested 3. (Allowed: 3)\n   - `FDN-009-201W`: Stock is 1. You requested 3. (Stock limit: 1)\n   - `LIP-004-01`: Stock is 23. You requested 2. (Allowed: 2)\n   - `MSC-004-BLA`: Stock is 0 (sold out). You requested 1. (Stock limit: 0)\n   - `SUN-007-50ml`: Stock is 5. You requested 3. (Allowed: 3)\n\n2. **Per-order Limits**:\n   - `FDN-009` (Halcyon Beauty Bare Foundation) has a `max_per_order` limit of 2 units total across all shades. However, since the requested variant `FDN-009-201W` only has 1 unit in stock, you can only order 1 unit anyway.\n   - `LIP-007` (Orrin Clear Lip Color) has a `max_per_order` limit of 1 unit total across all shades. You requested 3 units of variant `LIP-007-03`, but the per-order limit restricts the total units of this product to **1**.\n   - `LIP-004` has no per-order limit. You requested 2, and 2 are in stock. (Allowed: 2)\n   - `MSC-004` has no per-order limit, but stock is 0. (Allowed: 0)\n   - `SUN-007` has a `max_per_order` limit of 2 units total across all shades. You requested 3 units of variant `SUN-007-50ml`, but the per-order limit restricts your total quantity for this product to **2**.\n\n   **Adjusted Quantities**:\n   - `LIP-007-03`: 1 (limited by per-order limit)\n   - `FDN-009-201W`: 1 (limited by stock)\n   - `LIP-004-01`: 2\n   - `MSC-004-BLA`: 0 (sold out)\n   - `SUN-007-50ml`: 2 (limited by per-order limit)\n\n3. **Pricing and Active Promotion (Aurevia Week)**:\n   - `LIP-007-03` (Orrin): $18.00 each × 1 = $18.00 (Not Aurevia)\n   - `FDN-009-201W` (Halcyon Beauty): $45.00 each × 1 = $45.00 (Not Aurevia)\n   - `LIP-004-01` (Orrin): $16.00 each × 2 = $32.00 (Not Aurevia)\n   - `MSC-004-BLA`: $0.00\n   - `SUN-007-50ml` (**Aurevia** True Sunscreen): Regular price $20.00 each. Aurevia Week gives 20% off non-new, non-final-sale Aurevia products ($20.00 × 0.80 = $16.00 per unit). For 2 units: $16.00 × 2 = $32.00.\n\n4. **Merchandise Subtotal & Shipping**:\n   - Merchandise subtotal after discounts: $18.00 + $45.00 + $32.00 + $0.00 + $32.00 = $127.00.\n   - Since the merchandise subtotal after discounts ($127.00) is $50.00 or more, standard shipping ($6.95) is **free** ($0.00).\n   - Order Total: $127.00.\n\n```json\n{\n  \"lines\": [\n    {\"variant_id\": \"LIP-007-03\", \"quantity\": 1},\n    {\"variant_id\": \"FDN-009-201W\", \"quantity\": 1},\n    {\"variant_id\": \"LIP-004-01\", \"quantity\": 2},\n    {\"variant_id\": \"MSC-004-BLA\", \"quantity\": 0},\n    {\"variant_id\": \"SUN-007-50ml\", \"quantity\": 2}\n  ],\n  \"order_total\": 127.00\n}\n```",
+  "grade": {
+    "task": "T06",
+    "parsed": true,
+    "answer": {
+      "lines": [
+        {
+          "variant_id": "LIP-007-03",
+          "quantity": 1
+        },
+        {
+          "variant_id": "FDN-009-201W",
+          "quantity": 1
+        },
+        {
+          "variant_id": "LIP-004-01",
+          "quantity": 2
+        },
+        {
+          "variant_id": "MSC-004-BLA",
+          "quantity": 0
+        },
+        {
+          "variant_id": "SUN-007-50ml",
+          "quantity": 2
+        }
+      ],
+      "order_total": 127.0
+    },
+    "score": 1.0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "LIP-007-03 quantity = 1",
+        "passed": true,
+        "detail": "got 1; limits: requested 3, stock 31, max_per_order (remaining) 1"
+      },
+      {
+        "name": "FDN-009-201W quantity = 1",
+        "passed": true,
+        "detail": "got 1; limits: requested 3, stock 1, max_per_order (remaining) 2"
+      },
+      {
+        "name": "LIP-004-01 quantity = 2",
+        "passed": true,
+        "detail": "got 2; limits: requested 2, stock 23"
+      },
+      {
+        "name": "MSC-004-BLA quantity = 0",
+        "passed": true,
+        "detail": "got 0; limits: requested 1, stock 0"
+      },
+      {
+        "name": "SUN-007-50ml quantity = 2",
+        "passed": true,
+        "detail": "got 2; limits: requested 3, stock 5, max_per_order (remaining) 2"
+      },
+      {
+        "name": "order_total = $127.00",
+        "passed": true,
+        "detail": "got $127.00"
+      }
+    ]
+  }
+}

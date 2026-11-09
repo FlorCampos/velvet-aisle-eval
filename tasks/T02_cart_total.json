@@ -1,0 +1,20 @@
+{
+  "id": "T02",
+  "title": "Cart total with promotion exclusions and a shipping threshold",
+  "type": "cart_total",
+  "context_categories": ["lipstick", "blush", "concealer"],
+  "prompt": "Here's my cart:\n- 1 x LIP-008-02 (Aurevia Glass Lip Color, Sunset)\n- 1 x BLS-009-01 (Aurevia Daily Blush)\n- 1 x CNC-001-101C (Aurevia Bright Concealer)\n\nWith the Aurevia Week promotion, how much will I pay in total, including shipping?",
+  "output_format": "Return a JSON object of the form {\"merchandise_subtotal\": number, \"discount_total\": number, \"shipping\": number, \"order_total\": number}. merchandise_subtotal is the sum of unit price x quantity before any discount; discount_total is the total promotion discount; shipping is the shipping fee; order_total = merchandise_subtotal - discount_total + shipping. Use dollars with two decimals.",
+  "why_hard": "All three items are Aurevia, which invites a blanket 20% discount, but the blush is both a new launch and final sale, so it is excluded. The cart is $55.00 before discounts and $47.60 after, so the free-shipping threshold flips depending on whether it is applied before or after the discount.",
+  "traps": [
+    "Discounting the excluded Aurevia blush (is_new and final_sale)",
+    "Applying the free-shipping threshold to the pre-discount subtotal"
+  ],
+  "spec": {
+    "cart": [
+      {"variant_id": "LIP-008-02", "quantity": 1},
+      {"variant_id": "BLS-009-01", "quantity": 1},
+      {"variant_id": "CNC-001-101C", "quantity": 1}
+    ]
+  }
+}

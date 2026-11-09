@@ -1,0 +1,277 @@
+<title>Velvet Aisle Eval Explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: Streamlit-style results explorer, a selector row above three panels (answer, grader, results). */
+:root {
+  --bg: #ffffff;
+  --fg: #31333f;
+  --muted: #5c5f6b;
+  --surface: #f0f2f6;
+  --code-bg: #f8f9fb;
+  --border: #e6e8ee;
+  --accent: #ff4b4b;
+  --json-key: #16708f;
+  --json-str: #2f7a3a;
+  --err-bg: #fbe4e6; --err-line: #d9534f; --err-fg: #7a1c1c;
+  --ok-bg: #e6f6ea; --ok-line: #3b9b5c; --ok-fg: #156b30;
+  --warn-bg: #fff8db; --warn-fg: #855f05;
+  --info-bg: #e6f0fb; --info-fg: #0b4f8f;
+  --font-body: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-code: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1117; --fg: #fafafa; --muted: #a3a8b8; --surface: #262730; --code-bg: #1a1c24;
+    --border: #31333f; --accent: #ff6b6b; --json-key: #7cc4e0; --json-str: #9bd49e;
+    --err-bg: #3e1f22; --err-line: #e5534b; --err-fg: #ffb4ae;
+    --ok-bg: #173a24; --ok-line: #4cc27a; --ok-fg: #8ee0a8;
+    --warn-bg: #3d3214; --warn-fg: #f5d67a;
+    --info-bg: #172b45; --info-fg: #9cc7f5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1117; --fg: #fafafa; --muted: #a3a8b8; --surface: #262730; --code-bg: #1a1c24;
+  --border: #31333f; --accent: #ff6b6b; --json-key: #7cc4e0; --json-str: #9bd49e;
+  --err-bg: #3e1f22; --err-line: #e5534b; --err-fg: #ffb4ae;
+  --ok-bg: #173a24; --ok-line: #4cc27a; --ok-fg: #8ee0a8;
+  --warn-bg: #3d3214; --warn-fg: #f5d67a;
+  --info-bg: #172b45; --info-fg: #9cc7f5;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.5; }
+.page { max-width: 1360px; margin: 0 auto; padding-block: 40px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 32px; }
+h1 { margin: 0; font-size: clamp(30px, 4.4vw, 44px); line-height: 1.15; font-weight: 700; letter-spacing: -0.4px; text-wrap: balance; }
+h2 { margin: 0; font-size: clamp(22px, 2.6vw, 30px); line-height: 1.2; font-weight: 700; text-wrap: balance; }
+h3 { margin: 0; font-size: 24px; line-height: 1.2; font-weight: 700; }
+p { margin: 0; }
+.lede { font-size: 18px; max-width: 75ch; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+header, section { display: flex; flex-direction: column; gap: 14px; }
+.controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+label { font-size: 14px; color: var(--muted); }
+select { font: inherit; font-size: 16px; min-height: 44px; padding: 8px 12px; background: var(--surface); color: var(--fg); border: 1px solid var(--border); border-radius: 8px; width: 100%; }
+select:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.request { background: var(--surface); border-radius: 8px; padding: 14px 18px; font-size: 18px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: inherit; font-size: 14px; min-height: 36px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--err-line); background: var(--err-bg); color: var(--err-fg); cursor: pointer; font-variant-numeric: tabular-nums; }
+.chip:hover { filter: brightness(0.97); }
+.chip[aria-pressed="true"] { outline: 2px solid var(--fg); outline-offset: 1px; }
+.panels { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; }
+.panel { flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+pre.json { margin: 0; background: var(--code-bg); border-radius: 8px; padding: 18px 20px; font-family: var(--font-code); font-size: 14px; line-height: 1.7; color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere; overflow-x: auto; }
+.k { color: var(--json-key); } .s { color: var(--json-str); } .n { color: var(--json-key); }
+details { background: var(--code-bg); border-radius: 8px; padding: 10px 14px; }
+summary { cursor: pointer; font-weight: 600; min-height: 32px; display: flex; align-items: center; }
+details .reply { margin-top: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 15px; max-height: 420px; overflow: auto; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+code.tag { font-family: var(--font-code); font-size: 13px; background: var(--surface); color: var(--fg); padding: 3px 9px; border-radius: 6px; }
+.score { border: 2px solid var(--err-line); background: var(--err-bg); color: var(--err-fg); border-radius: 10px; padding: 22px 18px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.score.pass { border-color: var(--ok-line); background: var(--ok-bg); color: var(--ok-fg); }
+.score .label { font-size: 15px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+.score .big { font-size: 54px; line-height: 1.05; font-weight: 700; font-variant-numeric: tabular-nums; }
+.score .status { font-size: 16px; font-weight: 700; }
+.checks { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.checks li { display: flex; flex-direction: column; gap: 2px; }
+.checks .name { font-weight: 600; overflow-wrap: anywhere; }
+.checks .detail { font-family: var(--font-code); font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.box { border-radius: 8px; padding: 14px 18px; overflow-wrap: anywhere; }
+.box.info { background: var(--info-bg); color: var(--info-fg); }
+.box.warn { background: var(--warn-bg); color: var(--warn-fg); }
+.box.ok { background: var(--ok-bg); color: var(--ok-fg); }
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; }
+th, td { padding: 9px 12px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+thead th { background: var(--code-bg); font-weight: 600; }
+tbody tr:last-child td { border-bottom: 0; }
+tr.current td { font-weight: 700; }
+footer { border-top: 1px solid var(--border); padding-top: 14px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="page">
+  <header>
+    <h1>💄 Velvet Aisle: Beauty Shopping-Assistant Eval</h1>
+    <p class="lede">Do AI shopping assistants respect every store rule at once? A fictional beauty store with 136 products, 11 tasks, a deterministic code grader with no LLM judge, and 3 Gemini models run 3 to 5 times each. Pick any trial to see the model's answer, every grader check, and how the models compare.</p>
+  </header>
+
+  <section aria-labelledby="pick">
+    <h2 id="pick">🛍️ Customer Request (pick a trial)</h2>
+    <div class="controls">
+      <div class="field"><label for="sel-cond">Catalog in the prompt</label><select id="sel-cond"></select></div>
+      <div class="field"><label for="sel-task">Task</label><select id="sel-task"></select></div>
+      <div class="field"><label for="sel-model">Model</label><select id="sel-model"></select></div>
+      <div class="field"><label for="sel-trial">Trial</label><select id="sel-trial"></select></div>
+    </div>
+    <div class="request" id="request"></div>
+    <div class="field">
+      <p class="small muted" id="fail-label">Failed trials in this condition (click to open):</p>
+      <div class="chips" id="fails"></div>
+    </div>
+  </section>
+
+  <div class="panels">
+    <section class="panel" aria-labelledby="h-answer">
+      <h3 id="h-answer">1️⃣ Model Answer</h3>
+      <p class="muted">The JSON the model returned, parsed from its reply.</p>
+      <pre class="json" id="answer"></pre>
+      <details><summary>Full reply from the model</summary><div class="reply" id="reply"></div></details>
+      <div class="tags" id="tags"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-grader">
+      <h3 id="h-grader">2️⃣ Deterministic Grader</h3>
+      <p class="muted">Code checks against the catalog and store policies. No LLM judge.</p>
+      <div class="score" id="score"></div>
+      <ul class="checks" id="checks"></ul>
+      <div class="box info" id="why"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-results">
+      <h3 id="h-results">3️⃣ Results Across Models</h3>
+      <p class="muted">Same task, same grader, every trial in this condition.</p>
+      <div class="box warn" id="common"></div>
+      <div class="table-wrap"><table id="task-table"></table></div>
+      <div class="box ok">✨ Reference answer (passes every check):</div>
+      <pre class="json" id="reference"></pre>
+      <p class="small muted">Whole eval, this condition:</p>
+      <div class="table-wrap"><table id="overall-table"></table></div>
+    </section>
+  </div>
+
+  <footer><p class="small muted" id="footer"></p></footer>
+</div>
+
+<script id="eval-data" type="application/json">__DATA_JSON__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("eval-data").textContent);
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { cond: D.conditions[0].id, task: "T01", model: D.models[D.models.length - 1], trial: 1 };
+
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function jsonHtml(obj) {
+    if (obj === null || obj === undefined) return '<span class="muted">No JSON object found in the reply.</span>';
+    var txt = esc(JSON.stringify(obj, null, 2));
+    return txt.replace(/(&quot;(?:[^&]|&(?!quot;))*?&quot;)(\s*:)?|\b(-?\d+(?:\.\d+)?)\b/g, function (m, str, colon, num) {
+      if (str) return colon ? '<span class="k">' + str + "</span>" + colon : '<span class="s">' + str + "</span>";
+      return '<span class="n">' + num + "</span>";
+    });
+  }
+  function pct(x) { return Math.round(x * 100) + "%"; }
+  function describe(name) {
+    if (name.indexOf("includes ") === 0) return "missed " + name.slice(9);
+    if (name.indexOf("excludes ") === 0) return "wrongly listed " + name.slice(9);
+    return "expected " + name;
+  }
+  function money(x) { return x === null || x === undefined ? "n/a" : "$" + x.toFixed(2); }
+  function cond() { return D.conditions.filter(function (c) { return c.id === state.cond; })[0]; }
+  function trialsFor(c, model, task) {
+    return c.trials.filter(function (t) { return t.model === model && t.task === task; })
+      .sort(function (a, b) { return a.trial - b.trial; });
+  }
+  function current() {
+    var list = trialsFor(cond(), state.model, state.task);
+    return list.filter(function (t) { return t.trial === state.trial; })[0] || list[0];
+  }
+  function fillSelect(el, options, value) {
+    el.innerHTML = options.map(function (o) {
+      return '<option value="' + esc(o.value) + '"' + (String(o.value) === String(value) ? " selected" : "") + ">" + esc(o.label) + "</option>";
+    }).join("");
+  }
+
+  function render() {
+    var c = cond();
+    var task = D.tasks[state.task];
+    var trials = trialsFor(c, state.model, state.task);
+    if (!trials.some(function (t) { return t.trial === state.trial; })) state.trial = trials.length ? trials[0].trial : 1;
+    var t = current();
+
+    fillSelect($("sel-cond"), D.conditions.map(function (x) { return { value: x.id, label: x.label }; }), state.cond);
+    fillSelect($("sel-task"), Object.keys(D.tasks).sort().map(function (id) { return { value: id, label: id + " · " + D.tasks[id].title }; }), state.task);
+    fillSelect($("sel-model"), D.models.map(function (m) { return { value: m, label: D.modelLabels[m] }; }), state.model);
+    fillSelect($("sel-trial"), trials.map(function (x) { return { value: x.trial, label: "Trial " + x.trial + " of " + trials.length + (x.passed ? " · pass" : " · fail") }; }), state.trial);
+
+    $("request").textContent = task.prompt;
+
+    var fails = c.trials.filter(function (x) { return !x.passed; });
+    $("fail-label").textContent = fails.length
+      ? "Failed trials in this condition (" + fails.length + " of " + c.trials.length + "), click to open:"
+      : "No failed trials in this condition.";
+    $("fails").innerHTML = fails.map(function (x, i) {
+      var on = x.model === state.model && x.task === state.task && x.trial === state.trial;
+      return '<button type="button" class="chip" data-i="' + i + '" aria-pressed="' + on + '">' +
+        esc(D.modelLabels[x.model] + " · " + x.task + " · trial " + x.trial) + "</button>";
+    }).join("");
+    Array.prototype.forEach.call($("fails").querySelectorAll(".chip"), function (b) {
+      b.addEventListener("click", function () {
+        var x = fails[Number(b.getAttribute("data-i"))];
+        state.model = x.model; state.task = x.task; state.trial = x.trial; render();
+      });
+    });
+
+    if (!t) {
+      $("answer").innerHTML = '<span class="muted">No trial recorded.</span>';
+      return;
+    }
+    $("answer").innerHTML = jsonHtml(t.answer);
+    $("reply").textContent = t.reply || "";
+    $("tags").innerHTML = [D.modelLabels[t.model], "trial " + t.trial + " of " + trials.length, c.short + " catalog",
+      (t.input_tokens || 0).toLocaleString() + " input tokens"].map(function (s) { return '<code class="tag">' + esc(s) + "</code>"; }).join("");
+
+    var passedChecks = t.checks.filter(function (k) { return k.passed; }).length;
+    $("score").className = "score" + (t.passed ? " pass" : "");
+    $("score").innerHTML = '<p class="label">Task score</p><p class="big">' + Math.round(t.score * 100) + "%</p>" +
+      '<p class="small">' + passedChecks + " of " + t.checks.length + " checks passed</p>" +
+      '<p class="status">' + (t.passed ? "✅ PASSED · EVERY CHECK HOLDS" : "❌ FAILED · CONSTRAINT VIOLATED") + "</p>";
+    $("checks").innerHTML = t.checks.map(function (k) {
+      return "<li><span class=\"name\">" + (k.passed ? "✅ " : "❌ ") + esc(k.name) + "</span>" +
+        (k.detail ? '<span class="detail">' + esc(k.detail) + "</span>" : "") + "</li>";
+    }).join("");
+    var failed = t.checks.filter(function (k) { return !k.passed; });
+    $("why").innerHTML = failed.length
+      ? "<strong>Why it failed:</strong> " + failed.map(function (k) { return esc(describe(k.name) + (k.detail ? " (" + k.detail + ")" : "")); }).join("; ") + "."
+      : "<strong>Every check passed.</strong> " + esc(task.why_hard);
+
+    var fm = (c.failureModes[state.task] || []);
+    $("common").innerHTML = fm.length
+      ? "⚠️ Most frequent failure on " + esc(state.task) + ": <strong>" + esc(describe(fm[0][0])) + "</strong> (" + fm[0][1] + "×)"
+      : "⚠️ No model failed " + esc(state.task) + " in this condition.";
+
+    var rows = D.models.map(function (m) {
+      var ts = trialsFor(c, m, state.task);
+      var p = ts.filter(function (x) { return x.passed; }).length;
+      var mean = ts.length ? ts.reduce(function (a, x) { return a + x.score; }, 0) / ts.length : 0;
+      return "<tr" + (m === state.model ? ' class="current"' : "") + "><td>" + esc(D.modelLabels[m]) + "</td><td>" + p + "/" + ts.length +
+        "</td><td>" + mean.toFixed(2) + "</td></tr>";
+    }).join("");
+    $("task-table").innerHTML = "<thead><tr><th scope=\"col\">" + esc(state.task) + "</th><th scope=\"col\">Passes</th><th scope=\"col\">Mean score</th></tr></thead><tbody>" + rows + "</tbody>";
+    $("reference").innerHTML = jsonHtml(D.reference[state.task]);
+
+    var k = c.trialsPerTask;
+    $("overall-table").innerHTML = "<thead><tr><th scope=\"col\">Model</th><th scope=\"col\">Pass rate</th><th scope=\"col\">pass^" + k +
+      "</th><th scope=\"col\">Cost</th></tr></thead><tbody>" + D.models.map(function (m) {
+        var s = c.summary[m];
+        return "<tr" + (m === state.model ? ' class="current"' : "") + "><td>" + esc(D.modelLabels[m]) + "</td><td>" + pct(s.pass_rate) +
+          "</td><td>" + pct(s.pass_hat_k) + "</td><td>" + money(s.cost_usd) + "</td></tr>";
+      }).join("") + "</tbody>";
+
+    $("footer").textContent = "Built from the eval's results/ and transcripts/ on " + D.builtAt +
+      ". " + c.label + ": " + c.trials.length + " trials, " + k + " per task. Models were called through Google's OpenAI-compatible endpoint with default sampling. Costs use Google's list prices of November 2026.";
+  }
+
+  $("sel-cond").addEventListener("change", function (e) { state.cond = e.target.value; render(); });
+  $("sel-task").addEventListener("change", function (e) { state.task = e.target.value; render(); });
+  $("sel-model").addEventListener("change", function (e) { state.model = e.target.value; render(); });
+  $("sel-trial").addEventListener("change", function (e) { state.trial = Number(e.target.value); render(); });
+  render();
+})();
+</script>

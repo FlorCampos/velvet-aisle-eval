@@ -1,0 +1,26 @@
+{
+  "id": "T09",
+  "title": "Every vegan, cruelty-free red or berry shade within a price cap",
+  "type": "variant_set",
+  "context_categories": ["lipstick", "blush"],
+  "prompt": "I only buy makeup that is both vegan and cruelty-free. I'm looking for red or berry shades of lip color or blush, and I won't pay more than $20 for any single item. Can you list every shade I can order today?",
+  "output_format": "Return a JSON object of the form {\"variant_ids\": [\"...\"]} listing the variant ID of every shade that meets all of my conditions. If nothing matches, return an empty list.",
+  "why_hard": "The valid set is long (9 shades across 6 products and 2 categories), so completeness matters. The price cap is inclusive and depends on the promotion: two Aurevia shades pay exactly $20.00 after the discount (valid), one pays $20.80 (invalid), a new Aurevia launch gets no discount, and an excluded Aurevia blush is valid at full price. Several vegan shades are not cruelty-free.",
+  "traps": [
+    "LIP-002-05 and LIP-015-01: list $25.00, pay exactly $20.00 after the promotion (valid; the cap is inclusive)",
+    "LIP-017-01: Aurevia at $26.00, pays $20.80 (invalid)",
+    "LIP-016-01 and LIP-016-02: Aurevia new launch at $24.00, no discount (invalid)",
+    "BLS-009-02 and BLS-009-04: Aurevia but excluded from the promotion, valid anyway at $18.00",
+    "LIP-011, LIP-006, BLS-008: vegan but not cruelty-free",
+    "LIP-018-01: vegan, cruelty-free and $19.00, but sold out",
+    "LIP-013-01: only 1 unit in stock (valid)"
+  ],
+  "spec": {
+    "categories": ["lipstick", "blush"],
+    "color_families": ["red", "berry"],
+    "vegan": true,
+    "cruelty_free": true,
+    "max_paid_price_inclusive": 20.0,
+    "in_stock": true
+  }
+}

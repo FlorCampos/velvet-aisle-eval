@@ -1,0 +1,20 @@
+{
+  "id": "T11",
+  "title": "One of every in-stock Aurevia lip shade, and the order total",
+  "type": "set_and_total",
+  "context_categories": ["lipstick", "blush"],
+  "prompt": "I'm a huge Aurevia fan and I want to use Aurevia Week to buy one unit of every Aurevia lip color shade you have in stock right now, across all of their lip color products. Which shades will be in my order, and what will I pay in total, including shipping?",
+  "output_format": "Return a JSON object of the form {\"variant_ids\": [\"...\"], \"order_total\": number}. variant_ids lists every shade in the order (one unit each). order_total includes promotions and shipping, in dollars with two decimals.",
+  "why_hard": "The model has to enumerate 22 in-stock shades across six Aurevia lip products, skip the two sold-out shades, and add up 22 prices where one product (a new launch) gets no discount. One missed shade or one discount applied to the wrong product changes the total.",
+  "traps": [
+    "LIP-002-01 and LIP-014-01 are sold out",
+    "LIP-016 is a new launch: $24.00 each, no promotion",
+    "LIP-008 has 8 shades, the most of any product; missing one is easy",
+    "Aurevia blush (BLS-009) is in context but is not a lip color"
+  ],
+  "spec": {
+    "category": "lipstick",
+    "brand": "Aurevia",
+    "in_stock": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "T01",
+  "title": "Foundation shade match under a budget",
+  "type": "variant_set",
+  "context_categories": ["foundation", "concealer"],
+  "prompt": "Hi! I have a medium skin tone with an olive undertone. I'm looking for a fragrance-free foundation, and I don't want to pay $40 or more for it. I'd like to place the order today. Can you list every foundation shade in your store that works for me?",
+  "output_format": "Return a JSON object of the form {\"variant_ids\": [\"...\"]} listing the variant ID of every shade that meets all of my conditions. If nothing matches, return an empty list.",
+  "why_hard": "Six hard constraints must hold at the same time, and the valid set is defined by the price the customer would pay, not the list price. Near-misses sit right next to the valid answers: sold-out sibling shades, a shade at exactly $40.00, a new Aurevia launch that the promotion does not cover, and fragrance-free concealers in the same shade.",
+  "traps": [
+    "Sold-out sibling shades of valid products (FDN-012-304O, FDN-015-303O)",
+    "Price exactly $40.00, which the customer excluded (FDN-013-301O)",
+    "Aurevia foundation at $48 that is valid only after the 20% promotion (FDN-016-302O, pays $38.40)",
+    "Aurevia new launch at $45 that the promotion does not cover (FDN-017-302O)",
+    "Medium olive concealers that are fragrance-free and under budget, but are not foundations"
+  ],
+  "spec": {
+    "category": "foundation",
+    "depth": "medium",
+    "undertone": "olive",
+    "fragrance_free": true,
+    "max_paid_price_exclusive": 40.0,
+    "in_stock": true
+  }
+}

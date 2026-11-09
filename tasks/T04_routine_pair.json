@@ -1,0 +1,24 @@
+{
+  "id": "T04",
+  "title": "Cheapest valid cleanser and moisturizer pair",
+  "type": "pair",
+  "context_categories": ["cleanser", "moisturizer"],
+  "prompt": "I have sensitive skin, and I only buy products that are both vegan and cruelty-free. I need one cleanser and one moisturizer, both fragrance-free and suitable for sensitive skin, that I can order today. Any size is fine. Which pair is the cheapest?",
+  "output_format": "Return a JSON object of the form {\"cleanser_variant_id\": \"...\", \"moisturizer_variant_id\": \"...\", \"total\": number}. total is the price I would pay for one unit of each, in dollars with two decimals.",
+  "why_hard": "Five attributes must hold for both products, and the cheapest-looking options each break exactly one of them: vegan but not cruelty-free, missing sensitive skin, not fragrance-free, or sold out. The cheapest valid moisturizer is a 15 ml mini, which models that default to full sizes miss.",
+  "traps": [
+    "CLN-014-150ml ($9): vegan and fragrance-free, but not cruelty-free",
+    "CLN-015-150ml ($10): not listed for sensitive skin",
+    "CLN-013-50ml ($8): sold out, while its 150 ml size is the valid answer",
+    "MST-017-15ml ($9): not fragrance-free",
+    "MST-016-15ml ($12) is the cheapest valid moisturizer; its 50 ml size costs $31"
+  ],
+  "spec": {
+    "categories": ["cleanser", "moisturizer"],
+    "vegan": true,
+    "cruelty_free": true,
+    "fragrance_free": true,
+    "skin_type": "sensitive",
+    "in_stock": true
+  }
+}

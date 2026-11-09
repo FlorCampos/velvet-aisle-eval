@@ -1,0 +1,927 @@
+[
+  {
+    "sku": "FDN-015",
+    "name": "Daylight Foundation",
+    "brand": "Halcyon Beauty",
+    "category": "foundation",
+    "finish": "satin",
+    "spf": 15,
+    "suitable_skin_types": [
+      "dry",
+      "oily",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "hyaluronic acid"
+    ],
+    "fragrance_free": true,
+    "vegan": false,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "FDN-015-101N",
+        "shade": {
+          "name": "Porcelain 101N",
+          "depth": "fair",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 12
+      },
+      {
+        "variant_id": "FDN-015-201W",
+        "shade": {
+          "name": "Linen 201W",
+          "depth": "light",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 8
+      },
+      {
+        "variant_id": "FDN-015-301N",
+        "shade": {
+          "name": "Honey 301N",
+          "depth": "medium",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 15
+      },
+      {
+        "variant_id": "FDN-015-302O",
+        "shade": {
+          "name": "Almond 302O",
+          "depth": "medium",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 3
+      },
+      {
+        "variant_id": "FDN-015-303O",
+        "shade": {
+          "name": "Beige 303O",
+          "depth": "medium",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 0
+      },
+      {
+        "variant_id": "FDN-015-401W",
+        "shade": {
+          "name": "Amber 401W",
+          "depth": "tan",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 9
+      },
+      {
+        "variant_id": "FDN-015-501C",
+        "shade": {
+          "name": "Espresso 501C",
+          "depth": "deep",
+          "undertone": "cool",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 39.0,
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "sku": "FDN-016",
+    "name": "Glass Foundation",
+    "brand": "Aurevia",
+    "category": "foundation",
+    "finish": "matte",
+    "spf": 0,
+    "suitable_skin_types": [
+      "oily",
+      "combination",
+      "normal"
+    ],
+    "key_ingredients": [],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "FDN-016-201N",
+        "shade": {
+          "name": "Sand 201N",
+          "depth": "light",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 48.0,
+        "stock": 10
+      },
+      {
+        "variant_id": "FDN-016-301W",
+        "shade": {
+          "name": "Honey 301W",
+          "depth": "medium",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 48.0,
+        "stock": 11
+      },
+      {
+        "variant_id": "FDN-016-302O",
+        "shade": {
+          "name": "Almond 302O",
+          "depth": "medium",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 48.0,
+        "stock": 7
+      },
+      {
+        "variant_id": "FDN-016-401O",
+        "shade": {
+          "name": "Toffee 401O",
+          "depth": "tan",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 48.0,
+        "stock": 5
+      },
+      {
+        "variant_id": "FDN-016-501N",
+        "shade": {
+          "name": "Mahogany 501N",
+          "depth": "deep",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 48.0,
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "sku": "FDN-017",
+    "name": "Hydra Foundation",
+    "brand": "Aurevia",
+    "category": "foundation",
+    "finish": "dewy",
+    "spf": 15,
+    "suitable_skin_types": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "squalane"
+    ],
+    "fragrance_free": true,
+    "vegan": false,
+    "cruelty_free": true,
+    "non_comedogenic": false,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": true,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "FDN-017-101W",
+        "shade": {
+          "name": "Ivory 101W",
+          "depth": "fair",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 45.0,
+        "stock": 14
+      },
+      {
+        "variant_id": "FDN-017-302O",
+        "shade": {
+          "name": "Almond 302O",
+          "depth": "medium",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 45.0,
+        "stock": 9
+      },
+      {
+        "variant_id": "FDN-017-401N",
+        "shade": {
+          "name": "Golden 401N",
+          "depth": "tan",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 30,
+        "unit": "ml",
+        "price": 45.0,
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "sku": "CLN-013",
+    "name": "Gentle Cleanser",
+    "brand": "Solenne Lab",
+    "category": "cleanser",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "ceramides",
+      "centella asiatica"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CLN-013-50ml",
+        "shade": null,
+        "size": 50,
+        "unit": "ml",
+        "price": 8.0,
+        "stock": 0
+      },
+      {
+        "variant_id": "CLN-013-150ml",
+        "shade": null,
+        "size": 150,
+        "unit": "ml",
+        "price": 18.0,
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "sku": "CLN-014",
+    "name": "Calm Cleanser",
+    "brand": "Velmora",
+    "category": "cleanser",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "hyaluronic acid"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": false,
+    "non_comedogenic": true,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CLN-014-150ml",
+        "shade": null,
+        "size": 150,
+        "unit": "ml",
+        "price": 9.0,
+        "stock": 20
+      }
+    ]
+  },
+  {
+    "sku": "CLN-015",
+    "name": "Hydra Cleanser",
+    "brand": "Orrin",
+    "category": "cleanser",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "normal"
+    ],
+    "key_ingredients": [
+      "glycolic acid"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": false,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CLN-015-150ml",
+        "shade": null,
+        "size": 150,
+        "unit": "ml",
+        "price": 10.0,
+        "stock": 18
+      }
+    ]
+  },
+  {
+    "sku": "MST-015",
+    "name": "Calm Moisturizer",
+    "brand": "Tidepool Skin",
+    "category": "moisturizer",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "ceramides",
+      "squalane"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "MST-015-50ml",
+        "shade": null,
+        "size": 50,
+        "unit": "ml",
+        "price": 30.0,
+        "stock": 9
+      }
+    ]
+  },
+  {
+    "sku": "MST-016",
+    "name": "Cloud Moisturizer",
+    "brand": "Kaelo",
+    "category": "moisturizer",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "oily",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "niacinamide",
+      "hyaluronic acid"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "MST-016-15ml",
+        "shade": null,
+        "size": 15,
+        "unit": "ml",
+        "price": 12.0,
+        "stock": 6
+      },
+      {
+        "variant_id": "MST-016-50ml",
+        "shade": null,
+        "size": 50,
+        "unit": "ml",
+        "price": 31.0,
+        "stock": 14
+      }
+    ]
+  },
+  {
+    "sku": "MST-017",
+    "name": "Hydra Moisturizer",
+    "brand": "Velmora",
+    "category": "moisturizer",
+    "finish": null,
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "peptides"
+    ],
+    "fragrance_free": false,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": true,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "MST-017-15ml",
+        "shade": null,
+        "size": 15,
+        "unit": "ml",
+        "price": 9.0,
+        "stock": 22
+      },
+      {
+        "variant_id": "MST-017-50ml",
+        "shade": null,
+        "size": 50,
+        "unit": "ml",
+        "price": 24.0,
+        "stock": 30
+      }
+    ]
+  },
+  {
+    "sku": "CNC-013",
+    "name": "Velvet Concealer",
+    "brand": "Kaelo",
+    "category": "concealer",
+    "finish": "matte",
+    "spf": 0,
+    "suitable_skin_types": [
+      "oily",
+      "combination",
+      "normal"
+    ],
+    "key_ingredients": [],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CNC-013-201N",
+        "shade": {
+          "name": "Sand 201N",
+          "depth": "light",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 22.0,
+        "stock": 5
+      },
+      {
+        "variant_id": "CNC-013-301W",
+        "shade": {
+          "name": "Honey 301W",
+          "depth": "medium",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 22.0,
+        "stock": 9
+      },
+      {
+        "variant_id": "CNC-013-401C",
+        "shade": {
+          "name": "Amber 401C",
+          "depth": "tan",
+          "undertone": "cool",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 22.0,
+        "stock": 7
+      },
+      {
+        "variant_id": "CNC-013-501C",
+        "shade": {
+          "name": "Espresso 501C",
+          "depth": "deep",
+          "undertone": "cool",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 22.0,
+        "stock": 0
+      },
+      {
+        "variant_id": "CNC-013-502O",
+        "shade": {
+          "name": "Mahogany 502O",
+          "depth": "deep",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 22.0,
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "sku": "CNC-014",
+    "name": "Soft Focus Concealer",
+    "brand": "Velmora",
+    "category": "concealer",
+    "finish": "matte",
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "combination",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "squalane"
+    ],
+    "fragrance_free": true,
+    "vegan": false,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CNC-014-301N",
+        "shade": {
+          "name": "Almond 301N",
+          "depth": "medium",
+          "undertone": "neutral",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 26.0,
+        "stock": 8
+      },
+      {
+        "variant_id": "CNC-014-401W",
+        "shade": {
+          "name": "Toffee 401W",
+          "depth": "tan",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 26.0,
+        "stock": 6
+      },
+      {
+        "variant_id": "CNC-014-501C",
+        "shade": {
+          "name": "Cocoa 501C",
+          "depth": "deep",
+          "undertone": "cool",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 26.0,
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "sku": "CNC-015",
+    "name": "Glass Concealer",
+    "brand": "Orrin",
+    "category": "concealer",
+    "finish": "satin",
+    "spf": 0,
+    "suitable_skin_types": [
+      "dry",
+      "normal",
+      "sensitive"
+    ],
+    "key_ingredients": [
+      "hyaluronic acid"
+    ],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": true,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "CNC-015-201W",
+        "shade": {
+          "name": "Buff 201W",
+          "depth": "light",
+          "undertone": "warm",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 19.0,
+        "stock": 11
+      },
+      {
+        "variant_id": "CNC-015-302O",
+        "shade": {
+          "name": "Beige 302O",
+          "depth": "medium",
+          "undertone": "olive",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 19.0,
+        "stock": 4
+      },
+      {
+        "variant_id": "CNC-015-501C",
+        "shade": {
+          "name": "Walnut 501C",
+          "depth": "deep",
+          "undertone": "cool",
+          "color_family": null
+        },
+        "size": 6,
+        "unit": "ml",
+        "price": 19.0,
+        "stock": 8
+      }
+    ]
+  },
+  {
+    "sku": "LIP-015",
+    "name": "Velvet Lip Color",
+    "brand": "Aurevia",
+    "category": "lipstick",
+    "finish": "satin",
+    "spf": 0,
+    "suitable_skin_types": null,
+    "key_ingredients": [],
+    "fragrance_free": false,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": null,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "LIP-015-01",
+        "shade": {
+          "name": "Poppy",
+          "depth": null,
+          "undertone": "warm",
+          "color_family": "red"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 25.0,
+        "stock": 9
+      },
+      {
+        "variant_id": "LIP-015-02",
+        "shade": {
+          "name": "Latte",
+          "depth": null,
+          "undertone": "neutral",
+          "color_family": "nude"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 25.0,
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "sku": "LIP-016",
+    "name": "Hydra Lip Color",
+    "brand": "Aurevia",
+    "category": "lipstick",
+    "finish": "gloss",
+    "spf": 0,
+    "suitable_skin_types": null,
+    "key_ingredients": [],
+    "fragrance_free": false,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": null,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": true,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "LIP-016-01",
+        "shade": {
+          "name": "Cherry",
+          "depth": null,
+          "undertone": "cool",
+          "color_family": "red"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 24.0,
+        "stock": 10
+      },
+      {
+        "variant_id": "LIP-016-02",
+        "shade": {
+          "name": "Fig",
+          "depth": null,
+          "undertone": "cool",
+          "color_family": "berry"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 24.0,
+        "stock": 7
+      }
+    ]
+  },
+  {
+    "sku": "LIP-017",
+    "name": "Silk Lip Color",
+    "brand": "Aurevia",
+    "category": "lipstick",
+    "finish": "matte",
+    "spf": 0,
+    "suitable_skin_types": null,
+    "key_ingredients": [],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": null,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "LIP-017-01",
+        "shade": {
+          "name": "Mulberry",
+          "depth": null,
+          "undertone": "cool",
+          "color_family": "berry"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 26.0,
+        "stock": 8
+      },
+      {
+        "variant_id": "LIP-017-02",
+        "shade": {
+          "name": "Petal",
+          "depth": null,
+          "undertone": "neutral",
+          "color_family": "rose"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 26.0,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "sku": "LIP-018",
+    "name": "Velvet Lip Color",
+    "brand": "Kaelo",
+    "category": "lipstick",
+    "finish": "matte",
+    "spf": 0,
+    "suitable_skin_types": null,
+    "key_ingredients": [],
+    "fragrance_free": true,
+    "vegan": true,
+    "cruelty_free": true,
+    "non_comedogenic": null,
+    "alcohol_free": null,
+    "water_resistant": false,
+    "is_new": false,
+    "final_sale": false,
+    "max_per_order": null,
+    "variants": [
+      {
+        "variant_id": "LIP-018-01",
+        "shade": {
+          "name": "Ruby",
+          "depth": null,
+          "undertone": "cool",
+          "color_family": "red"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 19.0,
+        "stock": 0
+      },
+      {
+        "variant_id": "LIP-018-02",
+        "shade": {
+          "name": "Blossom",
+          "depth": null,
+          "undertone": "cool",
+          "color_family": "pink"
+        },
+        "size": 3.5,
+        "unit": "g",
+        "price": 19.0,
+        "stock": 14
+      }
+    ]
+  }
+]

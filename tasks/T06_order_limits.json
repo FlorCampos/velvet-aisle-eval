@@ -1,0 +1,24 @@
+{
+  "id": "T06",
+  "title": "Gift order with per-order limits and stock",
+  "type": "quantities",
+  "context_categories": ["lipstick", "foundation", "mascara", "sunscreen"],
+  "prompt": "I'm buying gifts and I'd like:\n- 3 x LIP-007-03 (Orrin Clear Lip Color, Mauve)\n- 3 x FDN-009-201W (Halcyon Beauty Bare Foundation, light warm)\n- 2 x LIP-004-01 (Orrin Calm Lip Color, Poppy)\n- 1 x MSC-004-BLA (Tidepool Skin Cloud Mascara)\n- 3 x SUN-007-50ml (Aurevia True Sunscreen)\n\nPlease add as many of each as the store allows in a single order. How many of each can I get, and what is my order total?",
+  "output_format": "Return a JSON object of the form {\"lines\": [{\"variant_id\": \"...\", \"quantity\": integer}], \"order_total\": number}. Include every variant I asked for, with quantity 0 if none can be ordered. order_total includes promotions and shipping, in dollars with two decimals.",
+  "why_hard": "Each line is capped by a different rule: a per-order limit of 1, a stock of 1 (below a per-order limit of 2), a sold-out mascara, and a per-order limit of 2 on an Aurevia item that also gets 20% off. The total is only right if every cap and the promotion are applied.",
+  "traps": [
+    "LIP-007 has max_per_order 1",
+    "FDN-009-201W has only 1 unit in stock (max_per_order is 2)",
+    "MSC-004-BLA is sold out",
+    "SUN-007 has max_per_order 2 and is discounted 20% (Aurevia, not new, not final sale)"
+  ],
+  "spec": {
+    "requested": [
+      {"variant_id": "LIP-007-03", "quantity": 3},
+      {"variant_id": "FDN-009-201W", "quantity": 3},
+      {"variant_id": "LIP-004-01", "quantity": 2},
+      {"variant_id": "MSC-004-BLA", "quantity": 1},
+      {"variant_id": "SUN-007-50ml", "quantity": 3}
+    ]
+  }
+}

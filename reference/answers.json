@@ -1,0 +1,5655 @@
+{
+  "T01": {
+    "type": "variant_set",
+    "expected": {
+      "variant_ids": [
+        "FDN-012-302O",
+        "FDN-015-302O",
+        "FDN-016-302O"
+      ]
+    },
+    "explanations": {
+      "CNC-001-101C": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-102W": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-201N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-202N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-302W": [
+        "category is concealer, not foundation",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-303N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-401O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-001-402O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-001-501W": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-502C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-001-503N": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-002-101C": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive"
+      ],
+      "CNC-002-201C": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is cool, not olive"
+      ],
+      "CNC-002-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-002-302N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-002-401W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-002-501W": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-003-101W": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-003-201N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-003-301C": [
+        "category is concealer, not foundation",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-003-401C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-003-402O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-003-501O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-004-101N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-004-102O": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-004-201O": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-004-301O": [
+        "category is concealer, not foundation",
+        "not fragrance-free"
+      ],
+      "CNC-004-401N": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-004-501C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-004-502C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-005-101N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-005-201C": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-401W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-402C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-005-501O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-005-502C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-101O": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-006-201O": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-006-202W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-302C": [
+        "category is concealer, not foundation",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-006-303C": [
+        "category is concealer, not foundation",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-401N": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-402O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-006-501N": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-006-502C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-007-101W": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-007-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-007-202W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-007-301W": [
+        "category is concealer, not foundation",
+        "undertone is warm, not olive"
+      ],
+      "CNC-007-302N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "sold out (stock 0)"
+      ],
+      "CNC-007-401W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-007-501O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium"
+      ],
+      "CNC-008-101C": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-102C": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-202C": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-203N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-008-301O": [
+        "category is concealer, not foundation",
+        "not fragrance-free"
+      ],
+      "CNC-008-401W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-402O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-008-403O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-008-404W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-008-501N": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-101N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-102N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-401N": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-009-501O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-009-502N": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-101N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-202N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-203O": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-010-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-302W": [
+        "category is concealer, not foundation",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-401C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-010-402O": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-010-403N": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-011-101N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-011-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-011-202O": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium"
+      ],
+      "CNC-011-301O": [
+        "category is concealer, not foundation"
+      ],
+      "CNC-011-401N": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-011-402C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "sold out (stock 0)"
+      ],
+      "CNC-011-501O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium"
+      ],
+      "CNC-012-101O": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-012-102O": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-012-103N": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-012-104O": [
+        "category is concealer, not foundation",
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "CNC-012-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-302N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-303W": [
+        "category is concealer, not foundation",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-401C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-402C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-501W": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-012-502W": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "CNC-013-201N": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-013-301W": [
+        "category is concealer, not foundation",
+        "undertone is warm, not olive"
+      ],
+      "CNC-013-401C": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive"
+      ],
+      "CNC-013-501C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "sold out (stock 0)"
+      ],
+      "CNC-013-502O": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium"
+      ],
+      "CNC-014-301N": [
+        "category is concealer, not foundation",
+        "undertone is neutral, not olive"
+      ],
+      "CNC-014-401W": [
+        "category is concealer, not foundation",
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-014-501C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive"
+      ],
+      "CNC-015-201W": [
+        "category is concealer, not foundation",
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "CNC-015-302O": [
+        "category is concealer, not foundation"
+      ],
+      "CNC-015-501C": [
+        "category is concealer, not foundation",
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive"
+      ],
+      "FDN-001-101W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-102N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-103O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free"
+      ],
+      "FDN-001-104N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-201N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-202O": [
+        "shade depth is light, not medium",
+        "not fragrance-free"
+      ],
+      "FDN-001-203C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-204O": [
+        "shade depth is light, not medium",
+        "not fragrance-free"
+      ],
+      "FDN-001-301N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-001-302C": [
+        "undertone is cool, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-002-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-102N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-201C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-301N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-302C": [
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-303W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-304C": [
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-401W": [
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-002-402O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-003-101O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-003-102C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-103O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-104C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-201O": [
+        "shade depth is light, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-202C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-301W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-401O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-402O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-403N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-501O": [
+        "shade depth is deep, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-502N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-003-503O": [
+        "shade depth is deep, not medium",
+        "not fragrance-free",
+        "pays $56.00, not under $40.00"
+      ],
+      "FDN-004-101O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-201O": [
+        "shade depth is light, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-301C": [
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-302N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-401C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "FDN-004-402O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "FDN-004-403O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-404O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-405O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-501N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-502C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-503W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-504W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-505O": [
+        "shade depth is deep, not medium",
+        "not fragrance-free",
+        "pays $45.60, not under $40.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-005-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-102W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-201O": [
+        "shade depth is light, not medium",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-202C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-203C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-204W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-301N": [
+        "undertone is neutral, not olive",
+        "pays $43.00, not under $40.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-005-302W": [
+        "undertone is warm, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-401C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-501O": [
+        "shade depth is deep, not medium",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-005-502W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "pays $43.00, not under $40.00"
+      ],
+      "FDN-006-101O": [
+        "shade depth is fair, not medium"
+      ],
+      "FDN-006-201O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-006-202W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "FDN-006-203O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-006-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-302N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-401N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-402N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-403O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-006-501O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-007-101W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-201N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-301O": [
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-401C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-402C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-501C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-502C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-503N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-007-504N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-008-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-102W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-103N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-104N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-105W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-106N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-107W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-201W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-008-202W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-203N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-301N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-401O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-008-402N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $54.00, not under $40.00"
+      ],
+      "FDN-009-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-201W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-202C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-301O": [
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-302W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-303W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-304W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-401N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-402N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-403O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-501N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-502W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-009-503C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $45.00, not under $40.00"
+      ],
+      "FDN-010-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-010-102N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-010-201O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-010-202N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-010-301C": [
+        "undertone is cool, not olive"
+      ],
+      "FDN-010-302W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-010-401O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-010-402N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-010-403C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive"
+      ],
+      "FDN-010-501C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive"
+      ],
+      "FDN-010-502O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-010-503N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-011-101W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-102O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-103W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-011-201N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-301N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-011-401N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-011-402W": [
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-011-403O": [
+        "shade depth is tan, not medium",
+        "not fragrance-free"
+      ],
+      "FDN-011-501O": [
+        "shade depth is deep, not medium",
+        "not fragrance-free"
+      ],
+      "FDN-011-502N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive",
+        "not fragrance-free"
+      ],
+      "FDN-012-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-102N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-201N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-303W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-012-304O": [
+        "sold out (stock 0)"
+      ],
+      "FDN-012-401C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive"
+      ],
+      "FDN-012-501W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive"
+      ],
+      "FDN-012-502N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-503W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive"
+      ],
+      "FDN-012-504O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-013-101C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-102C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-103C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-104N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-201C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-202N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-301O": [
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-302W": [
+        "undertone is warm, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-303C": [
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-401W": [
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-402C": [
+        "shade depth is tan, not medium",
+        "undertone is cool, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-501W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-013-502W": [
+        "shade depth is deep, not medium",
+        "undertone is warm, not olive",
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-014-101O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-102O": [
+        "shade depth is fair, not medium",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-103C": [
+        "shade depth is fair, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-104W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-201W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-202C": [
+        "shade depth is light, not medium",
+        "undertone is cool, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-203W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-204O": [
+        "shade depth is light, not medium",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-205O": [
+        "shade depth is light, not medium",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-301N": [
+        "undertone is neutral, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-302O": [
+        "not fragrance-free",
+        "pays $51.00, not under $40.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-014-303W": [
+        "undertone is warm, not olive",
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-014-304O": [
+        "not fragrance-free",
+        "pays $51.00, not under $40.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-014-305O": [
+        "not fragrance-free",
+        "pays $51.00, not under $40.00"
+      ],
+      "FDN-015-101N": [
+        "shade depth is fair, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-015-201W": [
+        "shade depth is light, not medium",
+        "undertone is warm, not olive"
+      ],
+      "FDN-015-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-015-303O": [
+        "sold out (stock 0)"
+      ],
+      "FDN-015-401W": [
+        "shade depth is tan, not medium",
+        "undertone is warm, not olive"
+      ],
+      "FDN-015-501C": [
+        "shade depth is deep, not medium",
+        "undertone is cool, not olive"
+      ],
+      "FDN-016-201N": [
+        "shade depth is light, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-016-301W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-016-401O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-016-501N": [
+        "shade depth is deep, not medium",
+        "undertone is neutral, not olive"
+      ],
+      "FDN-017-101W": [
+        "shade depth is fair, not medium",
+        "undertone is warm, not olive",
+        "pays $45.00, not under $40.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "FDN-017-302O": [
+        "pays $45.00, not under $40.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "FDN-017-401N": [
+        "shade depth is tan, not medium",
+        "undertone is neutral, not olive",
+        "pays $45.00, not under $40.00 (Aurevia, but excluded from the promotion)"
+      ]
+    },
+    "near_misses": {
+      "CNC-011-301O": [
+        "category is concealer, not foundation"
+      ],
+      "CNC-015-302O": [
+        "category is concealer, not foundation"
+      ],
+      "FDN-006-101O": [
+        "shade depth is fair, not medium"
+      ],
+      "FDN-006-201O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-006-203O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-006-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-302N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-006-403O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-006-501O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-007-301O": [
+        "pays $57.00, not under $40.00"
+      ],
+      "FDN-010-201O": [
+        "shade depth is light, not medium"
+      ],
+      "FDN-010-301C": [
+        "undertone is cool, not olive"
+      ],
+      "FDN-010-302W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-010-401O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-010-502O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-012-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-012-303W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-012-304O": [
+        "sold out (stock 0)"
+      ],
+      "FDN-012-504O": [
+        "shade depth is deep, not medium"
+      ],
+      "FDN-013-301O": [
+        "pays $40.00, not under $40.00"
+      ],
+      "FDN-015-301N": [
+        "undertone is neutral, not olive"
+      ],
+      "FDN-015-303O": [
+        "sold out (stock 0)"
+      ],
+      "FDN-016-301W": [
+        "undertone is warm, not olive"
+      ],
+      "FDN-016-401O": [
+        "shade depth is tan, not medium"
+      ],
+      "FDN-017-302O": [
+        "pays $45.00, not under $40.00 (Aurevia, but excluded from the promotion)"
+      ]
+    },
+    "notes": {
+      "answer_if_budget_used_list_price": [
+        "FDN-012-302O",
+        "FDN-015-302O"
+      ]
+    }
+  },
+  "T02": {
+    "type": "cart_total",
+    "expected": {
+      "merchandise_subtotal": 55.0,
+      "discount_total": 7.4,
+      "shipping": 6.95,
+      "order_total": 54.55
+    },
+    "working": {
+      "lines": [
+        {
+          "variant_id": "LIP-008-02",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "BLS-009-01",
+          "quantity": 1,
+          "unit_price": 18.0,
+          "line_total": 18.0,
+          "discount": 0.0,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "CNC-001-101C",
+          "quantity": 1,
+          "unit_price": 20.0,
+          "line_total": 20.0,
+          "discount": 4.0,
+          "promo_applies": true
+        }
+      ],
+      "subtotal_after_discounts": 47.6
+    }
+  },
+  "T03": {
+    "type": "returns",
+    "expected": {
+      "returnable_lines": [
+        1,
+        4,
+        5
+      ],
+      "refund_total": 97.6
+    },
+    "working": {
+      "days_since_delivery": 30,
+      "on_time": true,
+      "lines": {
+        "1": {
+          "returnable": true,
+          "reasons": []
+        },
+        "2": {
+          "returnable": false,
+          "reasons": [
+            "opened mascara"
+          ]
+        },
+        "3": {
+          "returnable": false,
+          "reasons": [
+            "final sale"
+          ]
+        },
+        "4": {
+          "returnable": true,
+          "reasons": []
+        },
+        "5": {
+          "returnable": true,
+          "reasons": []
+        }
+      }
+    }
+  },
+  "T04": {
+    "type": "pair",
+    "expected": {
+      "cleanser_variant_id": "CLN-013-150ml",
+      "moisturizer_variant_id": "MST-016-15ml",
+      "total": 30.0
+    },
+    "explanations": {
+      "CLN-001-50ml": [
+        "not vegan",
+        "sold out (stock 0)"
+      ],
+      "CLN-001-150ml": [
+        "not vegan"
+      ],
+      "CLN-002-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-50ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-150ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "CLN-004-150ml": [
+        "not vegan"
+      ],
+      "CLN-005-50ml": [
+        "not vegan",
+        "not fragrance-free"
+      ],
+      "CLN-005-150ml": [
+        "not vegan",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CLN-006-50ml": [
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "CLN-006-150ml": [
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "CLN-007-50ml": [
+        "not vegan",
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "CLN-007-150ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "CLN-008-150ml": [
+        "not fragrance-free"
+      ],
+      "CLN-009-50ml": [
+        "not vegan",
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "CLN-009-150ml": [
+        "not vegan",
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "CLN-010-150ml": [
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CLN-011-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-011-150ml": [
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "CLN-012-150ml": [
+        "not vegan",
+        "not fragrance-free"
+      ],
+      "CLN-013-50ml": [
+        "sold out (stock 0)"
+      ],
+      "CLN-014-150ml": [
+        "not cruelty-free"
+      ],
+      "CLN-015-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-001-15ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "MST-001-50ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "MST-002-50ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "MST-003-50ml": [
+        "not vegan"
+      ],
+      "MST-004-50ml": [
+        "not cruelty-free"
+      ],
+      "MST-005-50ml": [
+        "not vegan"
+      ],
+      "MST-006-15ml": [
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "MST-006-50ml": [
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "MST-007-15ml": [
+        "not vegan",
+        "not cruelty-free",
+        "not fragrance-free"
+      ],
+      "MST-007-50ml": [
+        "not vegan",
+        "not cruelty-free",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "MST-008-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-009-15ml": [
+        "not vegan",
+        "not fragrance-free",
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "MST-009-50ml": [
+        "not vegan",
+        "not fragrance-free",
+        "not listed for sensitive skin"
+      ],
+      "MST-010-50ml": [
+        "not vegan",
+        "not fragrance-free"
+      ],
+      "MST-011-50ml": [
+        "not vegan",
+        "not cruelty-free",
+        "not listed for sensitive skin"
+      ],
+      "MST-012-15ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "MST-012-50ml": [
+        "not vegan",
+        "not listed for sensitive skin"
+      ],
+      "MST-013-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-014-15ml": [
+        "not vegan",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "MST-014-50ml": [
+        "not vegan",
+        "not fragrance-free"
+      ],
+      "MST-017-15ml": [
+        "not fragrance-free"
+      ],
+      "MST-017-50ml": [
+        "not fragrance-free"
+      ]
+    },
+    "working": {
+      "valid_cleansers": [
+        [
+          18.0,
+          "CLN-013-150ml"
+        ]
+      ],
+      "valid_moisturizers": [
+        [
+          30.0,
+          "MST-015-50ml"
+        ],
+        [
+          12.0,
+          "MST-016-15ml"
+        ],
+        [
+          31.0,
+          "MST-016-50ml"
+        ]
+      ],
+      "runner_up_pair": [
+        48.0,
+        "CLN-013-150ml",
+        "MST-015-50ml"
+      ]
+    }
+  },
+  "T05": {
+    "type": "variant_set",
+    "expected": {
+      "variant_ids": []
+    },
+    "explanations": {
+      "CNC-001-101C": [
+        "shade depth is fair, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-102W": [
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-201N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-202N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-302W": [
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-303N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-401O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-402O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-501W": [
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-502C": [
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-001-503N": [
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-002-101C": [
+        "shade depth is fair, not deep",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-002-201C": [
+        "shade depth is light, not deep",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-002-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-002-302N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-002-401W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-002-501W": [
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "pays $25.00, not under $25.00"
+      ],
+      "CNC-003-101W": [
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-003-201N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-003-301C": [
+        "shade depth is medium, not deep",
+        "not fragrance-free"
+      ],
+      "CNC-003-401C": [
+        "shade depth is tan, not deep",
+        "not fragrance-free"
+      ],
+      "CNC-003-402O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-003-501O": [
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-101N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-102O": [
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-201O": [
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-301O": [
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-401N": [
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-004-501C": [
+        "not fragrance-free"
+      ],
+      "CNC-004-502C": [
+        "not fragrance-free"
+      ],
+      "CNC-005-101N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-005-201C": [
+        "shade depth is light, not deep",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-401W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CNC-005-402C": [
+        "shade depth is tan, not deep",
+        "not fragrance-free"
+      ],
+      "CNC-005-501O": [
+        "undertone is olive, not cool",
+        "not fragrance-free"
+      ],
+      "CNC-005-502C": [
+        "not fragrance-free"
+      ],
+      "CNC-006-101O": [
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-201O": [
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-202W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-302C": [
+        "shade depth is medium, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "CNC-006-303C": [
+        "shade depth is medium, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-401N": [
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-402O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-501N": [
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-006-502C": [
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $34.00, not under $25.00"
+      ],
+      "CNC-007-101W": [
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-007-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-007-202W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-007-301W": [
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-007-302N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "sold out (stock 0)"
+      ],
+      "CNC-007-401W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-007-501O": [
+        "undertone is olive, not cool"
+      ],
+      "CNC-008-101C": [
+        "shade depth is fair, not deep",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-102C": [
+        "shade depth is fair, not deep",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-202C": [
+        "shade depth is light, not deep",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-203N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "CNC-008-301O": [
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-401W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-402O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-403O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-404W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-008-501N": [
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-009-101N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-102N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-401N": [
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-501O": [
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-009-502N": [
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-101N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-202N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-203O": [
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-302W": [
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-401C": [
+        "shade depth is tan, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-402O": [
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-010-403N": [
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free"
+      ],
+      "CNC-011-101N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-011-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-011-202O": [
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-011-301O": [
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-011-401N": [
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-011-402C": [
+        "shade depth is tan, not deep",
+        "pays $27.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "CNC-011-501O": [
+        "undertone is olive, not cool",
+        "pays $27.00, not under $25.00"
+      ],
+      "CNC-012-101O": [
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-102O": [
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-103N": [
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "CNC-012-104O": [
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-302N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-303W": [
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-401C": [
+        "shade depth is tan, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-402C": [
+        "shade depth is tan, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-501W": [
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-012-502W": [
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $27.20, not under $25.00 (list $34.00, promotion applied)"
+      ],
+      "CNC-013-201N": [
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool"
+      ],
+      "CNC-013-301W": [
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool"
+      ],
+      "CNC-013-401C": [
+        "shade depth is tan, not deep"
+      ],
+      "CNC-013-501C": [
+        "sold out (stock 0)"
+      ],
+      "CNC-013-502O": [
+        "undertone is olive, not cool"
+      ],
+      "CNC-014-301N": [
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "pays $26.00, not under $25.00"
+      ],
+      "CNC-014-401W": [
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "pays $26.00, not under $25.00"
+      ],
+      "CNC-014-501C": [
+        "pays $26.00, not under $25.00"
+      ],
+      "CNC-015-201W": [
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte"
+      ],
+      "CNC-015-302O": [
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte"
+      ],
+      "CNC-015-501C": [
+        "finish is satin, not matte"
+      ],
+      "FDN-001-101W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-102N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-103O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-104N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-201N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-202O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-203C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-204O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-001-302C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "not fragrance-free",
+        "pays $26.00, not under $25.00"
+      ],
+      "FDN-002-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-102N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-201C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-302C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-303W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-304C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-401W": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-002-402O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-003-101O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-003-102C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-103O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-104C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-201O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-202C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-301W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-401O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-402O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-403N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-501O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-502N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-003-503O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $56.00, not under $25.00"
+      ],
+      "FDN-004-101O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-201O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-301C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-302N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-401C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "FDN-004-402O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "FDN-004-403O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-404O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-405O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-501N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-502C": [
+        "category is foundation, not concealer",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-503W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-504W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-004-505O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "pays $45.60, not under $25.00 (list $57.00, promotion applied)"
+      ],
+      "FDN-005-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-102W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-201O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-202C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-203C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-204W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "pays $43.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-005-302W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-401C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-501O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-005-502W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "pays $43.00, not under $25.00"
+      ],
+      "FDN-006-101O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-201O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-202W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-203O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-302N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-401N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-402N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-403O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-006-501O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $37.00, not under $25.00"
+      ],
+      "FDN-007-101W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-201N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-301O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-401C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-402C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-501C": [
+        "category is foundation, not concealer",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-502C": [
+        "category is foundation, not concealer",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-503N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-007-504N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $57.00, not under $25.00"
+      ],
+      "FDN-008-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-102W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-103N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-104N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-105W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-106N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-107W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-201W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-008-202W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-203N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-401O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-008-402N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $54.00, not under $25.00"
+      ],
+      "FDN-009-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-201W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-202C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-301O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-302W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-303W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-304W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-401N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-402N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-403O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-501N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-502W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-009-503C": [
+        "category is foundation, not concealer",
+        "not fragrance-free",
+        "pays $45.00, not under $25.00"
+      ],
+      "FDN-010-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-102N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-201O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-202N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-301C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-302W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-401O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-402N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-403C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-501C": [
+        "category is foundation, not concealer",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-502O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-010-503N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "pays $33.00, not under $25.00"
+      ],
+      "FDN-011-101W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-102O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-103W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-201N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "FDN-011-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-401N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-402W": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-403O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-501O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-011-502N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "not fragrance-free"
+      ],
+      "FDN-012-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-102N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-201N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-302O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-303W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-304O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "pays $38.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-012-401C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-501W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-502N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-503W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-012-504O": [
+        "category is foundation, not concealer",
+        "undertone is olive, not cool",
+        "pays $38.00, not under $25.00"
+      ],
+      "FDN-013-101C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-102C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-103C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-104N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-201C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-202N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-301O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-302W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-303C": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-401W": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-402C": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-501W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-013-502W": [
+        "category is foundation, not concealer",
+        "undertone is warm, not cool",
+        "pays $40.00, not under $25.00"
+      ],
+      "FDN-014-101O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-102O": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-103C": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-104W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-201W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-202C": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-203W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-204O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-205O": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-302O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-014-303W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-014-304O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-014-305O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "not fragrance-free",
+        "pays $51.00, not under $25.00"
+      ],
+      "FDN-015-101N": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-015-201W": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-015-301N": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is neutral, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-015-302O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-015-303O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00",
+        "sold out (stock 0)"
+      ],
+      "FDN-015-401W": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is warm, not cool",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-015-501C": [
+        "category is foundation, not concealer",
+        "finish is satin, not matte",
+        "pays $39.00, not under $25.00"
+      ],
+      "FDN-016-201N": [
+        "category is foundation, not concealer",
+        "shade depth is light, not deep",
+        "undertone is neutral, not cool",
+        "pays $38.40, not under $25.00 (list $48.00, promotion applied)"
+      ],
+      "FDN-016-301W": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is warm, not cool",
+        "pays $38.40, not under $25.00 (list $48.00, promotion applied)"
+      ],
+      "FDN-016-302O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "pays $38.40, not under $25.00 (list $48.00, promotion applied)"
+      ],
+      "FDN-016-401O": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is olive, not cool",
+        "pays $38.40, not under $25.00 (list $48.00, promotion applied)"
+      ],
+      "FDN-016-501N": [
+        "category is foundation, not concealer",
+        "undertone is neutral, not cool",
+        "pays $38.40, not under $25.00 (list $48.00, promotion applied)"
+      ],
+      "FDN-017-101W": [
+        "category is foundation, not concealer",
+        "shade depth is fair, not deep",
+        "undertone is warm, not cool",
+        "finish is dewy, not matte",
+        "pays $45.00, not under $25.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "FDN-017-302O": [
+        "category is foundation, not concealer",
+        "shade depth is medium, not deep",
+        "undertone is olive, not cool",
+        "finish is dewy, not matte",
+        "pays $45.00, not under $25.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "FDN-017-401N": [
+        "category is foundation, not concealer",
+        "shade depth is tan, not deep",
+        "undertone is neutral, not cool",
+        "finish is dewy, not matte",
+        "pays $45.00, not under $25.00 (Aurevia, but excluded from the promotion)"
+      ]
+    },
+    "near_misses": {
+      "CNC-004-501C": [
+        "not fragrance-free"
+      ],
+      "CNC-004-502C": [
+        "not fragrance-free"
+      ],
+      "CNC-005-502C": [
+        "not fragrance-free"
+      ],
+      "CNC-007-501O": [
+        "undertone is olive, not cool"
+      ],
+      "CNC-013-401C": [
+        "shade depth is tan, not deep"
+      ],
+      "CNC-013-501C": [
+        "sold out (stock 0)"
+      ],
+      "CNC-013-502O": [
+        "undertone is olive, not cool"
+      ],
+      "CNC-014-501C": [
+        "pays $26.00, not under $25.00"
+      ],
+      "CNC-015-501C": [
+        "finish is satin, not matte"
+      ]
+    },
+    "notes": {
+      "answer_if_budget_used_list_price": []
+    }
+  },
+  "T06": {
+    "type": "quantities",
+    "expected": {
+      "lines": [
+        {
+          "variant_id": "LIP-007-03",
+          "quantity": 1
+        },
+        {
+          "variant_id": "FDN-009-201W",
+          "quantity": 1
+        },
+        {
+          "variant_id": "LIP-004-01",
+          "quantity": 2
+        },
+        {
+          "variant_id": "MSC-004-BLA",
+          "quantity": 0
+        },
+        {
+          "variant_id": "SUN-007-50ml",
+          "quantity": 2
+        }
+      ],
+      "order_total": 127.0
+    },
+    "working": {
+      "lines": [
+        {
+          "variant_id": "LIP-007-03",
+          "caps": {
+            "requested": 3,
+            "stock": 31,
+            "max_per_order (remaining)": 1
+          },
+          "quantity": 1,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "FDN-009-201W",
+          "caps": {
+            "requested": 3,
+            "stock": 1,
+            "max_per_order (remaining)": 2
+          },
+          "quantity": 1,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "LIP-004-01",
+          "caps": {
+            "requested": 2,
+            "stock": 23
+          },
+          "quantity": 2,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "MSC-004-BLA",
+          "caps": {
+            "requested": 1,
+            "stock": 0
+          },
+          "quantity": 0,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "SUN-007-50ml",
+          "caps": {
+            "requested": 3,
+            "stock": 5,
+            "max_per_order (remaining)": 2
+          },
+          "quantity": 2,
+          "promo_applies": true
+        }
+      ],
+      "merchandise_subtotal": 135.0,
+      "discount_total": 8.0,
+      "shipping": 0.0
+    }
+  },
+  "T07": {
+    "type": "returns",
+    "expected": {
+      "returnable_lines": [
+        3,
+        4
+      ],
+      "refund_total": 75.6
+    },
+    "working": {
+      "days_since_delivery": 30,
+      "on_time": true,
+      "lines": {
+        "1": {
+          "returnable": false,
+          "reasons": [
+            "final sale"
+          ]
+        },
+        "2": {
+          "returnable": false,
+          "reasons": [
+            "opened mascara"
+          ]
+        },
+        "3": {
+          "returnable": true,
+          "reasons": []
+        },
+        "4": {
+          "returnable": true,
+          "reasons": []
+        }
+      }
+    }
+  },
+  "T08": {
+    "type": "cart_total",
+    "expected": {
+      "merchandise_subtotal": 97.0,
+      "discount_total": 10.4,
+      "shipping": 0.0,
+      "order_total": 86.6
+    },
+    "working": {
+      "lines": [
+        {
+          "variant_id": "FDN-017-302O",
+          "quantity": 1,
+          "unit_price": 45.0,
+          "line_total": 45.0,
+          "discount": 0.0,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "LIP-014-03",
+          "quantity": 1,
+          "unit_price": 33.0,
+          "line_total": 33.0,
+          "discount": 6.6,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "SUN-010-50ml",
+          "quantity": 1,
+          "unit_price": 19.0,
+          "line_total": 19.0,
+          "discount": 3.8,
+          "promo_applies": true
+        }
+      ],
+      "subtotal_after_discounts": 86.6
+    }
+  },
+  "T09": {
+    "type": "variant_set",
+    "expected": {
+      "variant_ids": [
+        "BLS-009-02",
+        "BLS-009-04",
+        "LIP-002-05",
+        "LIP-004-01",
+        "LIP-004-03",
+        "LIP-008-05",
+        "LIP-013-01",
+        "LIP-013-05",
+        "LIP-015-01"
+      ]
+    },
+    "explanations": {
+      "BLS-001-01": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $34.00, more than $20.00"
+      ],
+      "BLS-001-02": [
+        "not vegan",
+        "pays $34.00, more than $20.00"
+      ],
+      "BLS-001-03": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $34.00, more than $20.00"
+      ],
+      "BLS-001-04": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $34.00, more than $20.00"
+      ],
+      "BLS-002-01": [
+        "not vegan",
+        "pays $23.00, more than $20.00"
+      ],
+      "BLS-002-02": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $23.00, more than $20.00"
+      ],
+      "BLS-002-03": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $23.00, more than $20.00"
+      ],
+      "BLS-002-04": [
+        "not vegan",
+        "pays $23.00, more than $20.00"
+      ],
+      "BLS-002-05": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $23.00, more than $20.00"
+      ],
+      "BLS-003-01": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "pays $29.00, more than $20.00"
+      ],
+      "BLS-003-02": [
+        "not vegan",
+        "pays $29.00, more than $20.00"
+      ],
+      "BLS-003-03": [
+        "not vegan",
+        "pays $29.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "BLS-003-04": [
+        "not vegan",
+        "pays $29.00, more than $20.00"
+      ],
+      "BLS-004-01": [
+        "not vegan",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-004-02": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-004-03": [
+        "not vegan",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-004-04": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-005-01": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-005-02": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-005-03": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-005-04": [
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "BLS-006-01": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "pays $21.00, more than $20.00"
+      ],
+      "BLS-006-02": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $21.00, more than $20.00"
+      ],
+      "BLS-006-03": [
+        "not vegan",
+        "pays $21.00, more than $20.00"
+      ],
+      "BLS-007-01": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-007-02": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-007-03": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "BLS-007-04": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "not cruelty-free",
+        "pays $36.00, more than $20.00"
+      ],
+      "BLS-008-01": [
+        "color family is coral, not red or berry",
+        "not cruelty-free",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-008-02": [
+        "color family is rose, not red or berry",
+        "not cruelty-free",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-008-03": [
+        "color family is brown, not red or berry",
+        "not cruelty-free",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-008-04": [
+        "color family is nude, not red or berry",
+        "not cruelty-free",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-008-05": [
+        "not cruelty-free",
+        "pays $30.00, more than $20.00"
+      ],
+      "BLS-009-01": [
+        "color family is pink, not red or berry"
+      ],
+      "BLS-009-03": [
+        "color family is brown, not red or berry"
+      ],
+      "BLS-009-05": [
+        "color family is nude, not red or berry"
+      ],
+      "BLS-009-06": [
+        "color family is pink, not red or berry"
+      ],
+      "BLS-010-01": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $24.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "BLS-010-02": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "pays $24.00, more than $20.00"
+      ],
+      "BLS-010-03": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $24.00, more than $20.00"
+      ],
+      "LIP-001-01": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-001-02": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-001-03": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-001-04": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-001-05": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-001-06": [
+        "not vegan",
+        "not cruelty-free"
+      ],
+      "LIP-002-01": [
+        "color family is pink, not red or berry",
+        "sold out (stock 0)"
+      ],
+      "LIP-002-02": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-002-03": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-002-04": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-003-01": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-003-02": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-003-03": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-003-04": [
+        "color family is brown, not red or berry",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-004-02": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-004-04": [
+        "color family is rose, not red or berry"
+      ],
+      "LIP-005-01": [
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-005-02": [
+        "not vegan",
+        "pays $32.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "LIP-005-03": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-005-04": [
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-005-05": [
+        "color family is rose, not red or berry",
+        "not vegan",
+        "pays $32.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "LIP-005-06": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-005-07": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-005-08": [
+        "not vegan",
+        "pays $32.00, more than $20.00"
+      ],
+      "LIP-006-01": [
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-006-02": [
+        "color family is pink, not red or berry",
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-006-03": [
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-006-04": [
+        "color family is coral, not red or berry",
+        "not cruelty-free",
+        "pays $22.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "LIP-006-05": [
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-006-06": [
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-006-07": [
+        "color family is rose, not red or berry",
+        "not cruelty-free",
+        "pays $22.00, more than $20.00"
+      ],
+      "LIP-007-01": [
+        "color family is nude, not red or berry",
+        "not vegan"
+      ],
+      "LIP-007-02": [
+        "color family is coral, not red or berry",
+        "not vegan"
+      ],
+      "LIP-007-03": [
+        "color family is rose, not red or berry",
+        "not vegan"
+      ],
+      "LIP-007-04": [
+        "color family is pink, not red or berry",
+        "not vegan"
+      ],
+      "LIP-008-01": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-02": [
+        "color family is coral, not red or berry"
+      ],
+      "LIP-008-03": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-04": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-008-06": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-07": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-008-08": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-009-01": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-009-02": [
+        "color family is pink, not red or berry",
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-009-03": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-009-04": [
+        "color family is pink, not red or berry",
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-009-05": [
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-009-06": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $38.00, more than $20.00",
+        "sold out (stock 0)"
+      ],
+      "LIP-009-07": [
+        "not vegan",
+        "pays $38.00, more than $20.00"
+      ],
+      "LIP-010-01": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-02": [
+        "color family is nude, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-03": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-04": [
+        "color family is brown, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-05": [
+        "color family is pink, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-06": [
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-010-07": [
+        "color family is coral, not red or berry",
+        "not vegan",
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-011-01": [
+        "not cruelty-free"
+      ],
+      "LIP-011-02": [
+        "color family is coral, not red or berry",
+        "not cruelty-free"
+      ],
+      "LIP-011-03": [
+        "not cruelty-free"
+      ],
+      "LIP-011-04": [
+        "not cruelty-free"
+      ],
+      "LIP-012-01": [
+        "color family is rose, not red or berry",
+        "pays $35.00, more than $20.00"
+      ],
+      "LIP-012-02": [
+        "color family is nude, not red or berry",
+        "pays $35.00, more than $20.00"
+      ],
+      "LIP-012-03": [
+        "color family is nude, not red or berry",
+        "pays $35.00, more than $20.00"
+      ],
+      "LIP-012-04": [
+        "color family is pink, not red or berry",
+        "pays $35.00, more than $20.00"
+      ],
+      "LIP-013-02": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-013-03": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-013-04": [
+        "color family is coral, not red or berry"
+      ],
+      "LIP-014-01": [
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)",
+        "sold out (stock 0)"
+      ],
+      "LIP-014-02": [
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-014-03": [
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-014-04": [
+        "color family is brown, not red or berry",
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-014-05": [
+        "color family is rose, not red or berry",
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-015-02": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-016-01": [
+        "pays $24.00, more than $20.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "LIP-016-02": [
+        "pays $24.00, more than $20.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "LIP-017-01": [
+        "pays $20.80, more than $20.00 (list $26.00, promotion applied)"
+      ],
+      "LIP-017-02": [
+        "color family is rose, not red or berry",
+        "pays $20.80, more than $20.00 (list $26.00, promotion applied)"
+      ],
+      "LIP-018-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-018-02": [
+        "color family is pink, not red or berry"
+      ]
+    },
+    "near_misses": {
+      "BLS-009-01": [
+        "color family is pink, not red or berry"
+      ],
+      "BLS-009-03": [
+        "color family is brown, not red or berry"
+      ],
+      "BLS-009-05": [
+        "color family is nude, not red or berry"
+      ],
+      "BLS-009-06": [
+        "color family is pink, not red or berry"
+      ],
+      "LIP-002-02": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-002-03": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-002-04": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-003-01": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-003-02": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-003-03": [
+        "pays $33.00, more than $20.00"
+      ],
+      "LIP-004-02": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-004-04": [
+        "color family is rose, not red or berry"
+      ],
+      "LIP-008-01": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-02": [
+        "color family is coral, not red or berry"
+      ],
+      "LIP-008-03": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-04": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-008-06": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-008-07": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-008-08": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-011-01": [
+        "not cruelty-free"
+      ],
+      "LIP-011-03": [
+        "not cruelty-free"
+      ],
+      "LIP-011-04": [
+        "not cruelty-free"
+      ],
+      "LIP-013-02": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-013-03": [
+        "color family is brown, not red or berry"
+      ],
+      "LIP-013-04": [
+        "color family is coral, not red or berry"
+      ],
+      "LIP-014-02": [
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-014-03": [
+        "pays $26.40, more than $20.00 (list $33.00, promotion applied)"
+      ],
+      "LIP-015-02": [
+        "color family is nude, not red or berry"
+      ],
+      "LIP-016-01": [
+        "pays $24.00, more than $20.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "LIP-016-02": [
+        "pays $24.00, more than $20.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "LIP-017-01": [
+        "pays $20.80, more than $20.00 (list $26.00, promotion applied)"
+      ],
+      "LIP-018-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-018-02": [
+        "color family is pink, not red or berry"
+      ]
+    },
+    "notes": {
+      "answer_if_budget_used_list_price": [
+        "BLS-009-02",
+        "BLS-009-04",
+        "LIP-004-01",
+        "LIP-004-03",
+        "LIP-008-05",
+        "LIP-013-01",
+        "LIP-013-05"
+      ]
+    }
+  },
+  "T10": {
+    "type": "variant_set",
+    "expected": {
+      "variant_ids": [
+        "CLN-001-150ml",
+        "CLN-004-150ml",
+        "CLN-013-150ml",
+        "CLN-014-150ml",
+        "MST-003-50ml",
+        "MST-005-50ml",
+        "MST-015-50ml",
+        "MST-016-15ml",
+        "MST-016-50ml",
+        "SRM-001-30ml",
+        "SRM-010-15ml",
+        "TNR-005-200ml"
+      ]
+    },
+    "explanations": {
+      "CLN-001-50ml": [
+        "sold out (stock 0)"
+      ],
+      "CLN-002-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-005-50ml": [
+        "not fragrance-free"
+      ],
+      "CLN-005-150ml": [
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CLN-006-50ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "CLN-006-150ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "CLN-007-50ml": [
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "CLN-007-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-008-150ml": [
+        "not fragrance-free"
+      ],
+      "CLN-009-50ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "CLN-009-150ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "CLN-010-150ml": [
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "CLN-011-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-011-150ml": [
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "CLN-012-150ml": [
+        "not fragrance-free"
+      ],
+      "CLN-013-50ml": [
+        "sold out (stock 0)"
+      ],
+      "CLN-015-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-001-15ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-001-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-002-50ml": [
+        "not listed for sensitive skin",
+        "pays $62.00, not under $35.00"
+      ],
+      "MST-004-50ml": [
+        "pays $56.00, not under $35.00"
+      ],
+      "MST-006-15ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "MST-006-50ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "MST-007-15ml": [
+        "not fragrance-free"
+      ],
+      "MST-007-50ml": [
+        "not fragrance-free",
+        "pays $60.00, not under $35.00",
+        "sold out (stock 0)"
+      ],
+      "MST-008-50ml": [
+        "not fragrance-free",
+        "pays $49.00, not under $35.00"
+      ],
+      "MST-009-15ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "MST-009-50ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "pays $53.00, not under $35.00"
+      ],
+      "MST-010-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-011-50ml": [
+        "not listed for sensitive skin",
+        "pays $44.00, not under $35.00"
+      ],
+      "MST-012-15ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-012-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-013-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-014-15ml": [
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "MST-014-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-017-15ml": [
+        "not fragrance-free"
+      ],
+      "MST-017-50ml": [
+        "not fragrance-free"
+      ],
+      "SRM-002-15ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "pays $36.00, not under $35.00"
+      ],
+      "SRM-002-30ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "pays $54.00, not under $35.00"
+      ],
+      "SRM-003-30ml": [
+        "not fragrance-free",
+        "pays $40.00, not under $35.00"
+      ],
+      "SRM-004-30ml": [
+        "pays $46.00, not under $35.00",
+        "sold out (stock 0)"
+      ],
+      "SRM-005-15ml": [
+        "not fragrance-free",
+        "pays $41.00, not under $35.00"
+      ],
+      "SRM-005-30ml": [
+        "not fragrance-free",
+        "pays $60.00, not under $35.00"
+      ],
+      "SRM-006-15ml": [
+        "not listed for sensitive skin",
+        "pays $45.00, not under $35.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "SRM-006-30ml": [
+        "not listed for sensitive skin",
+        "pays $66.00, not under $35.00 (Aurevia, but excluded from the promotion)"
+      ],
+      "SRM-007-30ml": [
+        "pays $41.60, not under $35.00 (list $52.00, promotion applied)"
+      ],
+      "SRM-008-15ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "SRM-008-30ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "pays $51.00, not under $35.00",
+        "sold out (stock 0)"
+      ],
+      "SRM-009-15ml": [
+        "not fragrance-free"
+      ],
+      "SRM-009-30ml": [
+        "not fragrance-free"
+      ],
+      "SRM-010-30ml": [
+        "pays $36.80, not under $35.00 (list $46.00, promotion applied)"
+      ],
+      "SRM-011-30ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "pays $62.00, not under $35.00"
+      ],
+      "SRM-012-30ml": [
+        "not fragrance-free",
+        "pays $61.60, not under $35.00 (list $77.00, promotion applied)"
+      ],
+      "SRM-013-30ml": [
+        "pays $53.00, not under $35.00"
+      ],
+      "SRM-014-30ml": [
+        "pays $65.00, not under $35.00"
+      ],
+      "SUN-001-50ml": [
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "SUN-002-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-003-50ml": [
+        "not listed for sensitive skin",
+        "pays $42.00, not under $35.00"
+      ],
+      "SUN-004-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-005-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "SUN-006-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-007-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "SUN-008-50ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free",
+        "sold out (stock 0)"
+      ],
+      "SUN-009-50ml": [
+        "not listed for sensitive skin",
+        "pays $35.00, not under $35.00"
+      ],
+      "SUN-010-50ml": [
+        "not fragrance-free"
+      ],
+      "TNR-001-200ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "TNR-002-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-003-200ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "TNR-004-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-006-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-007-200ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "TNR-008-200ml": [
+        "not listed for sensitive skin",
+        "not fragrance-free"
+      ],
+      "TNR-009-200ml": [
+        "not listed for sensitive skin",
+        "sold out (stock 0)"
+      ],
+      "TNR-010-200ml": [
+        "not fragrance-free"
+      ]
+    },
+    "near_misses": {
+      "CLN-001-50ml": [
+        "sold out (stock 0)"
+      ],
+      "CLN-002-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-003-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-005-50ml": [
+        "not fragrance-free"
+      ],
+      "CLN-007-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-008-150ml": [
+        "not fragrance-free"
+      ],
+      "CLN-011-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "CLN-012-150ml": [
+        "not fragrance-free"
+      ],
+      "CLN-013-50ml": [
+        "sold out (stock 0)"
+      ],
+      "CLN-015-150ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-001-15ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-001-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-004-50ml": [
+        "pays $56.00, not under $35.00"
+      ],
+      "MST-007-15ml": [
+        "not fragrance-free"
+      ],
+      "MST-010-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-012-15ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-012-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "MST-013-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-014-50ml": [
+        "not fragrance-free"
+      ],
+      "MST-017-15ml": [
+        "not fragrance-free"
+      ],
+      "MST-017-50ml": [
+        "not fragrance-free"
+      ],
+      "SRM-007-30ml": [
+        "pays $41.60, not under $35.00 (list $52.00, promotion applied)"
+      ],
+      "SRM-009-15ml": [
+        "not fragrance-free"
+      ],
+      "SRM-009-30ml": [
+        "not fragrance-free"
+      ],
+      "SRM-010-30ml": [
+        "pays $36.80, not under $35.00 (list $46.00, promotion applied)"
+      ],
+      "SRM-013-30ml": [
+        "pays $53.00, not under $35.00"
+      ],
+      "SRM-014-30ml": [
+        "pays $65.00, not under $35.00"
+      ],
+      "SUN-002-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-004-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-005-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "SUN-006-50ml": [
+        "not fragrance-free"
+      ],
+      "SUN-007-50ml": [
+        "not listed for sensitive skin"
+      ],
+      "SUN-010-50ml": [
+        "not fragrance-free"
+      ],
+      "TNR-002-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-004-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-006-200ml": [
+        "not fragrance-free"
+      ],
+      "TNR-010-200ml": [
+        "not fragrance-free"
+      ]
+    },
+    "notes": {
+      "answer_if_budget_used_list_price": [
+        "CLN-001-150ml",
+        "CLN-004-150ml",
+        "CLN-013-150ml",
+        "CLN-014-150ml",
+        "MST-003-50ml",
+        "MST-005-50ml",
+        "MST-015-50ml",
+        "MST-016-15ml",
+        "MST-016-50ml",
+        "SRM-001-30ml",
+        "SRM-010-15ml",
+        "TNR-005-200ml"
+      ]
+    }
+  },
+  "T11": {
+    "type": "set_and_total",
+    "expected": {
+      "variant_ids": [
+        "LIP-002-02",
+        "LIP-002-03",
+        "LIP-002-04",
+        "LIP-002-05",
+        "LIP-008-01",
+        "LIP-008-02",
+        "LIP-008-03",
+        "LIP-008-04",
+        "LIP-008-05",
+        "LIP-008-06",
+        "LIP-008-07",
+        "LIP-008-08",
+        "LIP-014-02",
+        "LIP-014-03",
+        "LIP-014-04",
+        "LIP-014-05",
+        "LIP-015-01",
+        "LIP-015-02",
+        "LIP-016-01",
+        "LIP-016-02",
+        "LIP-017-01",
+        "LIP-017-02"
+      ],
+      "order_total": 424.0
+    },
+    "explanations": {
+      "BLS-001-01": [
+        "category is blush, not lipstick",
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "BLS-001-02": [
+        "category is blush, not lipstick",
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "BLS-001-03": [
+        "category is blush, not lipstick",
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "BLS-001-04": [
+        "category is blush, not lipstick",
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "BLS-002-01": [
+        "category is blush, not lipstick",
+        "brand is Halcyon Beauty, not Aurevia"
+      ],
+      "BLS-002-02": [
+        "category is blush, not lipstick",
+        "brand is Halcyon Beauty, not Aurevia"
+      ],
+      "BLS-002-03": [
+        "category is blush, not lipstick",
+        "brand is Halcyon Beauty, not Aurevia"
+      ],
+      "BLS-002-04": [
+        "category is blush, not lipstick",
+        "brand is Halcyon Beauty, not Aurevia"
+      ],
+      "BLS-002-05": [
+        "category is blush, not lipstick",
+        "brand is Halcyon Beauty, not Aurevia"
+      ],
+      "BLS-003-01": [
+        "category is blush, not lipstick",
+        "brand is Velmora, not Aurevia"
+      ],
+      "BLS-003-02": [
+        "category is blush, not lipstick",
+        "brand is Velmora, not Aurevia"
+      ],
+      "BLS-003-03": [
+        "category is blush, not lipstick",
+        "brand is Velmora, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "BLS-003-04": [
+        "category is blush, not lipstick",
+        "brand is Velmora, not Aurevia"
+      ],
+      "BLS-004-01": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-004-02": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-004-03": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-004-04": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-005-01": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-005-02": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-005-03": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-005-04": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "BLS-006-01": [
+        "category is blush, not lipstick",
+        "brand is Orrin, not Aurevia"
+      ],
+      "BLS-006-02": [
+        "category is blush, not lipstick",
+        "brand is Orrin, not Aurevia"
+      ],
+      "BLS-006-03": [
+        "category is blush, not lipstick",
+        "brand is Orrin, not Aurevia"
+      ],
+      "BLS-007-01": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-007-02": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-007-03": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "BLS-007-04": [
+        "category is blush, not lipstick",
+        "brand is Kaelo, not Aurevia"
+      ],
+      "BLS-008-01": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-008-02": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-008-03": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-008-04": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-008-05": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-009-01": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-02": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-03": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-04": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-05": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-06": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-010-01": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "BLS-010-02": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "BLS-010-03": [
+        "category is blush, not lipstick",
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-01": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-02": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-03": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-04": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-05": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-06": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-002-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-003-01": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-02": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-03": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-04": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-004-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-02": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-02": [
+        "brand is Orrin, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "LIP-005-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-05": [
+        "brand is Orrin, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "LIP-005-06": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-07": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-08": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-006-01": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-02": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-03": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-04": [
+        "brand is Solenne Lab, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "LIP-006-05": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-06": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-07": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-007-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-02": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-009-01": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-02": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-03": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-04": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-05": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-06": [
+        "brand is Velmora, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "LIP-009-07": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-010-01": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-02": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-03": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-04": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-05": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-06": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-07": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-011-01": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-02": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-03": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-04": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-012-01": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-02": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-03": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-04": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-013-01": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-02": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-03": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-04": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-05": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-014-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-018-01": [
+        "brand is Kaelo, not Aurevia",
+        "sold out (stock 0)"
+      ],
+      "LIP-018-02": [
+        "brand is Kaelo, not Aurevia"
+      ]
+    },
+    "near_misses": {
+      "BLS-009-01": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-02": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-03": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-04": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-05": [
+        "category is blush, not lipstick"
+      ],
+      "BLS-009-06": [
+        "category is blush, not lipstick"
+      ],
+      "LIP-001-01": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-02": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-03": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-04": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-05": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-001-06": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-002-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-003-01": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-02": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-03": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-003-04": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-004-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-02": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-004-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-06": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-07": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-005-08": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-006-01": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-02": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-03": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-05": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-06": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-006-07": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-007-01": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-02": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-03": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-007-04": [
+        "brand is Orrin, not Aurevia"
+      ],
+      "LIP-009-01": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-02": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-03": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-04": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-05": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-009-07": [
+        "brand is Velmora, not Aurevia"
+      ],
+      "LIP-010-01": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-02": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-03": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-04": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-05": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-06": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-010-07": [
+        "brand is Solenne Lab, not Aurevia"
+      ],
+      "LIP-011-01": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-02": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-03": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-011-04": [
+        "brand is Kaelo, not Aurevia"
+      ],
+      "LIP-012-01": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-02": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-03": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-012-04": [
+        "brand is Tidepool Skin, not Aurevia"
+      ],
+      "LIP-013-01": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-02": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-03": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-04": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-013-05": [
+        "brand is Moss & Mineral, not Aurevia"
+      ],
+      "LIP-014-01": [
+        "sold out (stock 0)"
+      ],
+      "LIP-018-02": [
+        "brand is Kaelo, not Aurevia"
+      ]
+    },
+    "working": {
+      "merchandise_subtotal": 518.0,
+      "discount_total": 94.0,
+      "shipping": 0.0,
+      "order_total": 424.0,
+      "lines": [
+        {
+          "variant_id": "LIP-002-02",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-002-03",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-002-04",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-002-05",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-01",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-02",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-03",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-04",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-05",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-06",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-07",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-008-08",
+          "quantity": 1,
+          "unit_price": 17.0,
+          "line_total": 17.0,
+          "discount": 3.4,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-014-02",
+          "quantity": 1,
+          "unit_price": 33.0,
+          "line_total": 33.0,
+          "discount": 6.6,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-014-03",
+          "quantity": 1,
+          "unit_price": 33.0,
+          "line_total": 33.0,
+          "discount": 6.6,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-014-04",
+          "quantity": 1,
+          "unit_price": 33.0,
+          "line_total": 33.0,
+          "discount": 6.6,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-014-05",
+          "quantity": 1,
+          "unit_price": 33.0,
+          "line_total": 33.0,
+          "discount": 6.6,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-015-01",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-015-02",
+          "quantity": 1,
+          "unit_price": 25.0,
+          "line_total": 25.0,
+          "discount": 5.0,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-016-01",
+          "quantity": 1,
+          "unit_price": 24.0,
+          "line_total": 24.0,
+          "discount": 0.0,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "LIP-016-02",
+          "quantity": 1,
+          "unit_price": 24.0,
+          "line_total": 24.0,
+          "discount": 0.0,
+          "promo_applies": false
+        },
+        {
+          "variant_id": "LIP-017-01",
+          "quantity": 1,
+          "unit_price": 26.0,
+          "line_total": 26.0,
+          "discount": 5.2,
+          "promo_applies": true
+        },
+        {
+          "variant_id": "LIP-017-02",
+          "quantity": 1,
+          "unit_price": 26.0,
+          "line_total": 26.0,
+          "discount": 5.2,
+          "promo_applies": true
+        }
+      ]
+    }
+  }
+}

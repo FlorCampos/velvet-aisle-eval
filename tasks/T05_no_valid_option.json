@@ -1,0 +1,24 @@
+{
+  "id": "T05",
+  "title": "No product meets every condition",
+  "type": "variant_set",
+  "context_categories": ["concealer", "foundation"],
+  "prompt": "I need a concealer for my deep skin tone with a cool undertone. It has to be matte, fragrance-free, and less than $25, and I want to order it today. Which shades can I buy?",
+  "output_format": "Return a JSON object of the form {\"variant_ids\": [\"...\"]} listing the variant ID of every shade that meets all of my conditions. If nothing in the store meets all of them, return an empty list.",
+  "why_hard": "The correct answer is an empty list. Every deep, cool concealer misses exactly one condition: sold out, over budget, satin finish, or not fragrance-free. A helpful-sounding model is tempted to offer the closest match instead of saying that nothing qualifies.",
+  "traps": [
+    "CNC-013-501C: matte, fragrance-free and $22, but sold out",
+    "CNC-014-501C: matte, fragrance-free and in stock, but $26",
+    "CNC-015-501C: fragrance-free, $19 and in stock, but satin",
+    "CNC-004 and CNC-005 deep cool shades: matte, $24 and in stock, but not fragrance-free"
+  ],
+  "spec": {
+    "category": "concealer",
+    "depth": "deep",
+    "undertone": "cool",
+    "finish": "matte",
+    "fragrance_free": true,
+    "max_paid_price_exclusive": 25.0,
+    "in_stock": true
+  }
+}

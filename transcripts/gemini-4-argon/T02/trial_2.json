@@ -1,0 +1,58 @@
+{
+  "model": "gemini-4-argon",
+  "provider": "openai_compatible",
+  "requested_model": "gemini-4-argon",
+  "settings": {
+    "temperature": null,
+    "max_tokens": 32000
+  },
+  "task": "T02",
+  "trial": 2,
+  "started_at": "2026-11-09T01:31:56.461889+00:00",
+  "latency_s": 32.51,
+  "context": "focused",
+  "system_prompt_file": "transcripts/_prompts/T02.system.md",
+  "system_prompt_sha256": "38e339ef3d3fbb4f65f53019982c5d2003fe89aa5d983c5b018cfb56db063b0e",
+  "user_prompt": "Here's my cart:\n- 1 x LIP-008-02 (Aurevia Glass Lip Color, Sunset)\n- 1 x BLS-009-01 (Aurevia Daily Blush)\n- 1 x CNC-001-101C (Aurevia Bright Concealer)\n\nWith the Aurevia Week promotion, how much will I pay in total, including shipping?\n\nReturn a JSON object of the form {\"merchandise_subtotal\": number, \"discount_total\": number, \"shipping\": number, \"order_total\": number}. merchandise_subtotal is the sum of unit price x quantity before any discount; discount_total is the total promotion discount; shipping is the shipping fee; order_total = merchandise_subtotal - discount_total + shipping. Use dollars with two decimals.\n\nYou may think step by step first. End your reply with the JSON object inside a ```json code block.",
+  "error": null,
+  "response_model_id": "gemini-4-argon",
+  "stop_reason": "stop",
+  "input_tokens": 17452,
+  "output_tokens": 489,
+  "cost_usd": 0.039794,
+  "response_text": "Here is the breakdown of your cart and how the Aurevia Week promotion applies:\n\n1. **1 x LIP-008-02 (Aurevia Glass Lip Color, Sunset)**\n   - Unit Price: $17.00\n   - Aurevia Week Discount (20%): -$3.40 (Eligible: not a new launch or final sale)\n   - Line Total after Discount: $13.60\n\n2. **1 x BLS-009-01 (Aurevia Daily Blush, Peony)**\n   - Unit Price: $18.00\n   - Aurevia Week Discount: $0.00 (Excluded: this item is both a new launch and final sale)\n   - Line Total after Discount: $18.00\n\n3. **1 x CNC-001-101C (Aurevia Bright Concealer, Porcelain 101C)**\n   - Unit Price: $20.00\n   - Aurevia Week Discount (20%): -$4.00 (Eligible: not a new launch or final sale)\n   - Line Total after Discount: $16.00\n\n**Summary:**\n- **Merchandise Subtotal (before discount):** $17.00 + $18.00 + $20.00 = **$55.00**\n- **Discount Total:** $3.40 + $0.00 + $4.00 = **$7.40**\n- **Merchandise Subtotal (after discount):** $55.00 - $7.40 = **$47.60**\n- **Shipping:** Since the subtotal after discounts ($47.60) is under $50.00, standard shipping of **$6.95** applies.\n- **Order Total (excluding sales tax):** $47.60 + $6.95 = **$54.55**\n\n```json\n{\n  \"merchandise_subtotal\": 55.00,\n  \"discount_total\": 7.40,\n  \"shipping\": 6.95,\n  \"order_total\": 54.55\n}\n```",
+  "grade": {
+    "task": "T02",
+    "parsed": true,
+    "answer": {
+      "merchandise_subtotal": 55.0,
+      "discount_total": 7.4,
+      "shipping": 6.95,
+      "order_total": 54.55
+    },
+    "score": 1.0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "merchandise_subtotal = $55.00",
+        "passed": true,
+        "detail": "got $55.00"
+      },
+      {
+        "name": "discount_total = $7.40",
+        "passed": true,
+        "detail": "got $7.40"
+      },
+      {
+        "name": "shipping = $6.95",
+        "passed": true,
+        "detail": "got $6.95"
+      },
+      {
+        "name": "order_total = $54.55",
+        "passed": true,
+        "detail": "got $54.55"
+      }
+    ]
+  }
+}

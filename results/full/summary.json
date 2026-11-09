@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-11-09T01:55:56.923447+00:00",
+  "context": "full",
+  "trials_per_task": 5,
+  "models": {
+    "gemini-3.5-flash-lite": {
+      "requested_model": "gemini-3.5-flash-lite",
+      "response_model_ids": [
+        "gemini-3.5-flash-lite"
+      ],
+      "settings": {
+        "temperature": null,
+        "max_tokens": 32000
+      },
+      "trials": 55,
+      "pass_rate": 0.7090909090909091,
+      "mean_score": 0.9024077589505458,
+      "pass_at_k": 0.9090909090909091,
+      "pass_hat_k": 0.5454545454545454,
+      "cost_usd": 0.8595,
+      "input_tokens": 2293250,
+      "output_tokens": 68628,
+      "mean_latency_s": 3.98,
+      "per_task": {
+        "T01": {
+          "n": 5,
+          "passes": 0,
+          "mean_score": 0.62
+        },
+        "T02": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T03": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T04": {
+          "n": 5,
+          "passes": 4,
+          "mean_score": 0.8666666666666666
+        },
+        "T05": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T06": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T07": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T08": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T09": {
+          "n": 5,
+          "passes": 2,
+          "mean_score": 0.9193277310924369
+        },
+        "T10": {
+          "n": 5,
+          "passes": 1,
+          "mean_score": 0.8204909506969003
+        },
+        "T11": {
+          "n": 5,
+          "passes": 2,
+          "mean_score": 0.7
+        }
+      }
+    },
+    "gemini-3.8-flash": {
+      "requested_model": "gemini-3.8-flash",
+      "response_model_ids": [
+        "gemini-3.8-flash"
+      ],
+      "settings": {
+        "temperature": null,
+        "max_tokens": 32000
+      },
+      "trials": 55,
+      "pass_rate": 1.0,
+      "mean_score": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "cost_usd": 1.8247,
+      "input_tokens": 2293250,
+      "output_tokens": 27931,
+      "mean_latency_s": 18.33,
+      "per_task": {
+        "T01": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T02": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T03": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T04": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T05": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T06": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T07": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T08": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T09": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T10": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T11": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        }
+      }
+    },
+    "gemini-4-argon": {
+      "requested_model": "gemini-4-argon",
+      "response_model_ids": [
+        "gemini-4-argon"
+      ],
+      "settings": {
+        "temperature": null,
+        "max_tokens": 32000
+      },
+      "trials": 55,
+      "pass_rate": 1.0,
+      "mean_score": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "cost_usd": 4.8394,
+      "input_tokens": 2254205,
+      "output_tokens": 33096,
+      "mean_latency_s": 21.09,
+      "per_task": {
+        "T01": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T02": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T03": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T04": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T05": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T06": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T07": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T08": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T09": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T10": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        },
+        "T11": {
+          "n": 5,
+          "passes": 5,
+          "mean_score": 1.0
+        }
+      }
+    }
+  },
+  "per_task": {},
+  "failure_modes": {
+    "T01": {
+      "includes FDN-016-302O": 5,
+      "includes FDN-015-302O": 3
+    },
+    "T02": {},
+    "T03": {},
+    "T04": {
+      "moisturizer_variant_id = MST-016-15ml": 1,
+      "total = $30.00": 1
+    },
+    "T05": {},
+    "T06": {},
+    "T07": {},
+    "T08": {},
+    "T09": {
+      "includes LIP-008-05": 2,
+      "includes LIP-002-05": 1,
+      "includes LIP-013-01": 1,
+      "includes LIP-013-05": 1,
+      "includes LIP-015-01": 1
+    },
+    "T10": {
+      "includes CLN-014-150ml": 4,
+      "includes CLN-001-150ml": 2,
+      "includes CLN-004-150ml": 2,
+      "includes MST-005-50ml": 2,
+      "includes MST-015-50ml": 2,
+      "includes TNR-005-200ml": 2,
+      "includes MST-016-15ml": 1,
+      "includes MST-016-50ml": 1
+    },
+    "T11": {
+      "order_total = $424.00": 3
+    }
+  },
+  "errors": 0
+}

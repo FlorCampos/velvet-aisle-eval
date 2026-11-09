@@ -1,0 +1,87 @@
+{
+  "model": "gemini-4-argon",
+  "provider": "openai_compatible",
+  "requested_model": "gemini-4-argon",
+  "settings": {
+    "temperature": null,
+    "max_tokens": 32000
+  },
+  "task": "T06",
+  "trial": 2,
+  "started_at": "2026-11-09T01:32:45.533916+00:00",
+  "latency_s": 58.67,
+  "context": "focused",
+  "system_prompt_file": "transcripts/_prompts/T06.system.md",
+  "system_prompt_sha256": "e28c277229cf58dfabb9ea075bd4b32e9c9789f6025ccc33f14c4eee9b3174cf",
+  "user_prompt": "I'm buying gifts and I'd like:\n- 3 x LIP-007-03 (Orrin Clear Lip Color, Mauve)\n- 3 x FDN-009-201W (Halcyon Beauty Bare Foundation, light warm)\n- 2 x LIP-004-01 (Orrin Calm Lip Color, Poppy)\n- 1 x MSC-004-BLA (Tidepool Skin Cloud Mascara)\n- 3 x SUN-007-50ml (Aurevia True Sunscreen)\n\nPlease add as many of each as the store allows in a single order. How many of each can I get, and what is my order total?\n\nReturn a JSON object of the form {\"lines\": [{\"variant_id\": \"...\", \"quantity\": integer}], \"order_total\": number}. Include every variant I asked for, with quantity 0 if none can be ordered. order_total includes promotions and shipping, in dollars with two decimals.\n\nYou may think step by step first. End your reply with the JSON object inside a ```json code block.",
+  "error": null,
+  "response_model_id": "gemini-4-argon",
+  "stop_reason": "stop",
+  "input_tokens": 21474,
+  "output_tokens": 670,
+  "cost_usd": 0.049648,
+  "response_text": "Here is the breakdown of what can be added to your order based on stock availability and per-order limits, along with your pricing and active promotions:\n\n1. **LIP-007-03 (Orrin Clear Lip Color, Mauve)**\n   - **Requested:** 3 | **Allowed:** 1\n   - **Reason:** Limited to `max_per_order: 1` (31 in stock).\n   - **Price:** $18.00 × 1 = **$18.00**\n\n2. **FDN-009-201W (Halcyon Beauty Bare Foundation, Linen 201W)**\n   - **Requested:** 3 | **Allowed:** 1\n   - **Reason:** Only 1 unit in stock (also has a `max_per_order: 2` limit).\n   - **Price:** $45.00 × 1 = **$45.00**\n\n3. **LIP-004-01 (Orrin Calm Lip Color, Poppy)**\n   - **Requested:** 2 | **Allowed:** 2\n   - **Reason:** 23 units in stock and no per-order limit.\n   - **Price:** $16.00 × 2 = **$32.00**\n\n4. **MSC-004-BLA (Tidepool Skin Cloud Mascara, Black)**\n   - **Requested:** 1 | **Allowed:** 0\n   - **Reason:** Sold out (`stock: 0`).\n   - **Price:** **$0.00**\n\n5. **SUN-007-50ml (Aurevia True Sunscreen)**\n   - **Requested:** 3 | **Allowed:** 2\n   - **Reason:** Limited to `max_per_order: 2` (5 in stock).\n   - **Price:** $20.00 × 2 = $40.00, minus 20% Aurevia Week discount ($8.00) = **$32.00**\n\n### Order Summary\n- **Merchandise Subtotal (after discounts):** $127.00\n- **Shipping:** $0.00 (Free on subtotals of $50.00 or more after discounts)\n- **Order Total (excluding sales tax):** **$127.00**\n\n```json\n{\n  \"lines\": [\n    {\"variant_id\": \"LIP-007-03\", \"quantity\": 1},\n    {\"variant_id\": \"FDN-009-201W\", \"quantity\": 1},\n    {\"variant_id\": \"LIP-004-01\", \"quantity\": 2},\n    {\"variant_id\": \"MSC-004-BLA\", \"quantity\": 0},\n    {\"variant_id\": \"SUN-007-50ml\", \"quantity\": 2}\n  ],\n  \"order_total\": 127.00\n}\n```",
+  "grade": {
+    "task": "T06",
+    "parsed": true,
+    "answer": {
+      "lines": [
+        {
+          "variant_id": "LIP-007-03",
+          "quantity": 1
+        },
+        {
+          "variant_id": "FDN-009-201W",
+          "quantity": 1
+        },
+        {
+          "variant_id": "LIP-004-01",
+          "quantity": 2
+        },
+        {
+          "variant_id": "MSC-004-BLA",
+          "quantity": 0
+        },
+        {
+          "variant_id": "SUN-007-50ml",
+          "quantity": 2
+        }
+      ],
+      "order_total": 127.0
+    },
+    "score": 1.0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "LIP-007-03 quantity = 1",
+        "passed": true,
+        "detail": "got 1; limits: requested 3, stock 31, max_per_order (remaining) 1"
+      },
+      {
+        "name": "FDN-009-201W quantity = 1",
+        "passed": true,
+        "detail": "got 1; limits: requested 3, stock 1, max_per_order (remaining) 2"
+      },
+      {
+        "name": "LIP-004-01 quantity = 2",
+        "passed": true,
+        "detail": "got 2; limits: requested 2, stock 23"
+      },
+      {
+        "name": "MSC-004-BLA quantity = 0",
+        "passed": true,
+        "detail": "got 0; limits: requested 1, stock 0"
+      },
+      {
+        "name": "SUN-007-50ml quantity = 2",
+        "passed": true,
+        "detail": "got 2; limits: requested 3, stock 5, max_per_order (remaining) 2"
+      },
+      {
+        "name": "order_total = $127.00",
+        "passed": true,
+        "detail": "got $127.00"
+      }
+    ]
+  }
+}

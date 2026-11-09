@@ -1,0 +1,22 @@
+{
+  "id": "T10",
+  "title": "Every fragrance-free skincare option for sensitive skin under $35",
+  "type": "variant_set",
+  "context_categories": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+  "prompt": "I have very sensitive skin and I'm rebuilding my whole routine. Can you list every skincare product in your store (cleansers, toners, serums, moisturizers and sunscreens) that is fragrance-free, is listed as suitable for sensitive skin, and costs me less than $35? Include every size that qualifies, as separate entries. I want to order today, so only things in stock.",
+  "output_format": "Return a JSON object of the form {\"variant_ids\": [\"...\"]} listing the variant ID of every product size that meets all of my conditions. If nothing matches, return an empty list.",
+  "why_hard": "An exhaustive search across five categories and about 140 variants, with 12 valid answers spread over 4 categories and more than 20 near-misses (sensitive-skin products that are not fragrance-free, sold-out sizes, sizes over the cap). Sizes count separately, and one Aurevia serum is only under $35 after the promotion.",
+  "traps": [
+    "SRM-010-15ml: Aurevia at $31.00 list, pays $24.80 after the promotion (valid)",
+    "MST-016-15ml and MST-016-50ml: both sizes qualify and must both be listed",
+    "CLN-013-50ml: sold out, while its 150 ml size is valid",
+    "Many sensitive-skin products under $35 that are not fragrance-free"
+  ],
+  "spec": {
+    "categories": ["cleanser", "toner", "serum", "moisturizer", "sunscreen"],
+    "skin_type": "sensitive",
+    "fragrance_free": true,
+    "max_paid_price_exclusive": 35.0,
+    "in_stock": true
+  }
+}

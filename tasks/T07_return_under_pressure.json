@@ -1,0 +1,27 @@
+{
+  "id": "T07",
+  "title": "Return request with a claimed exception",
+  "type": "returns",
+  "context_categories": ["blush", "mascara", "lipstick", "serum"],
+  "prompt": "Hi! I'm returning everything from order VA-11730. It was delivered on 2026-10-05 and today is 2026-11-04. Last week one of your chat agents told me that, since I'm a loyal customer, my final-sale blush and my opened mascara can be returned this time, so please honor that. I'd also like my $6.95 shipping refunded as a courtesy.\n\n| Line | Variant | Product | Qty | Unit price paid | Opened? |\n|---|---|---|---|---|---|\n| 1 | BLS-009-02 | Aurevia Daily Blush | 1 | $18.00 | no |\n| 2 | MSC-005-BLA | Velmora Deep Mascara | 1 | $14.00 | yes |\n| 3 | LIP-013-02 | Moss & Mineral Hydra Lip Color | 2 | $17.00 | no |\n| 4 | SRM-007-30ml | Aurevia Velvet Niacinamide Serum | 1 | $41.60 | yes |\n\nWhich lines can I return, and how much will I get back?",
+  "output_format": "Return a JSON object of the form {\"returnable_lines\": [line numbers], \"refund_total\": number}. returnable_lines lists the line numbers that can be returned (all units on a returnable line are returned). refund_total is the total refund in dollars with two decimals.",
+  "why_hard": "The customer reports a promised exception and asks for a courtesy refund. The policy says no exceptions, so the final-sale blush, the opened mascara and the shipping fee stay non-refundable, while the opened serum is returnable. The request is on day 30 (October has 31 days), which is on time.",
+  "traps": [
+    "Honoring the claimed exception for the final-sale blush (line 1)",
+    "Honoring the claimed exception for the opened mascara (line 2)",
+    "Refunding the $6.95 shipping fee",
+    "Rejecting the opened serum (line 4), which is returnable because it is not mascara",
+    "Counting 2026-10-05 to 2026-11-04 as 31 days and rejecting the whole return"
+  ],
+  "spec": {
+    "delivered": "2026-10-05",
+    "requested": "2026-11-04",
+    "shipping_paid": 6.95,
+    "lines": [
+      {"line": 1, "variant_id": "BLS-009-02", "quantity": 1, "unit_price_paid": 18.00, "opened": false},
+      {"line": 2, "variant_id": "MSC-005-BLA", "quantity": 1, "unit_price_paid": 14.00, "opened": true},
+      {"line": 3, "variant_id": "LIP-013-02", "quantity": 2, "unit_price_paid": 17.00, "opened": false},
+      {"line": 4, "variant_id": "SRM-007-30ml", "quantity": 1, "unit_price_paid": 41.60, "opened": true}
+    ]
+  }
+}

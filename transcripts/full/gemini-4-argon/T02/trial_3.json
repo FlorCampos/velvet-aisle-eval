@@ -1,0 +1,58 @@
+{
+  "model": "gemini-4-argon",
+  "provider": "openai_compatible",
+  "requested_model": "gemini-4-argon",
+  "settings": {
+    "temperature": null,
+    "max_tokens": 32000
+  },
+  "task": "T02",
+  "trial": 3,
+  "started_at": "2026-11-09T01:20:40.528447+00:00",
+  "latency_s": 23.34,
+  "context": "full",
+  "system_prompt_file": "transcripts/full/_prompts/T02.system.md",
+  "system_prompt_sha256": "b3c48f39663989eea3665b02c663c2d22305ba2eeabac02577cb70a585dd863c",
+  "user_prompt": "Here's my cart:\n- 1 x LIP-008-02 (Aurevia Glass Lip Color, Sunset)\n- 1 x BLS-009-01 (Aurevia Daily Blush)\n- 1 x CNC-001-101C (Aurevia Bright Concealer)\n\nWith the Aurevia Week promotion, how much will I pay in total, including shipping?\n\nReturn a JSON object of the form {\"merchandise_subtotal\": number, \"discount_total\": number, \"shipping\": number, \"order_total\": number}. merchandise_subtotal is the sum of unit price x quantity before any discount; discount_total is the total promotion discount; shipping is the shipping fee; order_total = merchandise_subtotal - discount_total + shipping. Use dollars with two decimals.\n\nYou may think step by step first. End your reply with the JSON object inside a ```json code block.",
+  "error": null,
+  "response_model_id": "gemini-4-argon",
+  "stop_reason": "stop",
+  "input_tokens": 40989,
+  "output_tokens": 520,
+  "cost_usd": 0.087178,
+  "response_text": "Here is the breakdown of your cart and how the **Aurevia Week** promotion applies:\n\n1. **Aurevia Glass Lip Color in Sunset (`LIP-008-02`)**\n   - Unit Price: $17.00 (Stock: 26)\n   - Eligible for 20% Aurevia Week discount (`is_new: false`, `final_sale: false`): -$3.40\n   - Line Total: $13.60\n\n2. **Aurevia Daily Blush in Peony (`BLS-009-01`)**\n   - Unit Price: $18.00 (Stock: 34)\n   - Excluded from Aurevia Week discount because it is both a new launch (`is_new: true`) and final sale (`final_sale: true`): -$0.00\n   - Line Total: $18.00\n\n3. **Aurevia Bright Concealer in Porcelain 101C (`CNC-001-101C`)**\n   - Unit Price: $20.00 (Stock: 21)\n   - Eligible for 20% Aurevia Week discount (`is_new: false`, `final_sale: false`): -$4.00\n   - Line Total: $16.00\n\n### Summary\n- **Merchandise Subtotal (before discounts):** $17.00 + $18.00 + $20.00 = **$55.00**\n- **Discount Total:** $3.40 + $0.00 + $4.00 = **$7.40**\n- **Subtotal After Discounts:** $55.00 - $7.40 = **$47.60**\n- **Shipping:** Since the merchandise subtotal after discounts ($47.60) is under $50.00, standard shipping of **$6.95** applies.\n- **Order Total (excluding sales tax):** $47.60 + $6.95 = **$54.55**\n\n```json\n{\n  \"merchandise_subtotal\": 55.00,\n  \"discount_total\": 7.40,\n  \"shipping\": 6.95,\n  \"order_total\": 54.55\n}\n```",
+  "grade": {
+    "task": "T02",
+    "parsed": true,
+    "answer": {
+      "merchandise_subtotal": 55.0,
+      "discount_total": 7.4,
+      "shipping": 6.95,
+      "order_total": 54.55
+    },
+    "score": 1.0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "merchandise_subtotal = $55.00",
+        "passed": true,
+        "detail": "got $55.00"
+      },
+      {
+        "name": "discount_total = $7.40",
+        "passed": true,
+        "detail": "got $7.40"
+      },
+      {
+        "name": "shipping = $6.95",
+        "passed": true,
+        "detail": "got $6.95"
+      },
+      {
+        "name": "order_total = $54.55",
+        "passed": true,
+        "detail": "got $54.55"
+      }
+    ]
+  }
+}

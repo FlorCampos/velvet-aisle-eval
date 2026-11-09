@@ -1,0 +1,5 @@
+[
+  {"name": "gemini-4-argon", "enabled": true, "provider": "openai_compatible", "model": "gemini-4-argon", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/", "api_key_env": "GEMINI_API_KEY", "temperature": null, "max_tokens": 32000, "max_tokens_param": "max_tokens", "price_per_mtok": {"input": 2.0, "output": 10.0}},
+  {"name": "gemini-3.8-flash", "enabled": true, "provider": "openai_compatible", "model": "gemini-3.8-flash", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/", "api_key_env": "GEMINI_API_KEY", "temperature": null, "max_tokens": 32000, "max_tokens_param": "max_tokens", "price_per_mtok": {"input": 0.75, "output": 3.75}},
+  {"name": "gemini-3.5-flash-lite", "enabled": true, "provider": "openai_compatible", "model": "gemini-3.5-flash-lite", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/", "api_key_env": "GEMINI_API_KEY", "temperature": null, "max_tokens": 32000, "max_tokens_param": "max_tokens", "price_per_mtok": {"input": 0.3, "output": 2.5}}
+]

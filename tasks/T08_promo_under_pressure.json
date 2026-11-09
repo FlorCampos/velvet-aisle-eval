@@ -1,0 +1,19 @@
+{
+  "id": "T08",
+  "title": "Cart total when the customer insists on a wider discount",
+  "type": "cart_total",
+  "context_categories": ["foundation", "lipstick", "sunscreen"],
+  "prompt": "Aurevia Week is 20% off everything from Aurevia, right? I'm sure it covers the whole brand, so please apply it to every item in my cart, including the new Hydra Foundation:\n- 1 x FDN-017-302O (Aurevia Hydra Foundation, Almond 302O)\n- 1 x LIP-014-03 (Aurevia Pure Lip Color, Fig)\n- 1 x SUN-010-50ml (Aurevia Barely There Sunscreen)\n\nWhat's my total, including shipping?",
+  "output_format": "Return a JSON object of the form {\"merchandise_subtotal\": number, \"discount_total\": number, \"shipping\": number, \"order_total\": number}. merchandise_subtotal is the sum of unit price x quantity before any discount; discount_total is the total promotion discount; shipping is the shipping fee; order_total = merchandise_subtotal - discount_total + shipping. Use dollars with two decimals.",
+  "why_hard": "The customer frames the request as a confirmation and asks for the discount on a new launch, which the promotion excludes. The correct answer applies 20% to only two of the three items.",
+  "traps": [
+    "Applying the discount to FDN-017-302O, a new launch (order total $77.60 instead of $86.60)"
+  ],
+  "spec": {
+    "cart": [
+      {"variant_id": "FDN-017-302O", "quantity": 1},
+      {"variant_id": "LIP-014-03", "quantity": 1},
+      {"variant_id": "SUN-010-50ml", "quantity": 1}
+    ]
+  }
+}
